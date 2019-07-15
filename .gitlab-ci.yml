@@ -1,0 +1,136 @@
+stages:
+  - deploy
+  - test
+
+w3c-html-validation:
+  stage: test
+  before_script:
+  - apt-get update
+  - apt-get -qq -y install curl
+  - api="https://validator.w3.org/nu/"
+  - out="json"
+  - url="$api?out=$out"
+  script:
+  - errors=""
+  - errorcount=0
+  - warningcount=0
+  - errPattern="\"type\":\"error\"";
+  - warnPattern="\"subType\":\"warning\"";
+  - bash
+  - allHtmlFiles=$(find . -type f -name '*.html')
+  - >
+    for htmlFile in $allHtmlFiles; do 
+        response=$(curl -H "Content-Type: text/html; charset=utf-8" --data-binary @$htmlFile $url);
+        if echo "$response" | grep -q "$errPattern"; then
+          errors="$htmlFile $response $errors";
+          errorcount=$((errorcount+1));
+        elif echo "$response" | grep -q "$warnPattern"; then  
+          errors="$htmlFile $response $errors";
+          warningcount=$((warningcount+1));
+        else
+          errors="$errors ";
+        fi
+    done
+  - >
+    if [[ $errorcount -eq 0 ]]; then
+        if [[ $warningcount -eq 0 ]]; then
+            echo "OK: there are no errors in HTML / inline CSS";
+            exit 0;
+        else
+            echo "Warning: there are no errors but warnings in HTML / inline CSS";
+            echo $errors;
+            exit 0;
+        fi
+    else
+        echo "ERROR: there are some errors in HTML:";
+        echo $errors;
+        exit 1;
+    fi
+    
+w3c-css-validation:
+  stage: test
+  before_script:
+  - apt-get update
+  - apt-get -qq -y install curl
+  - api="https://validator.w3.org/nu/"
+  - out="json"
+  - url="$api?out=$out"
+  script:
+  - errors=""
+  - errorcount=0
+  - warningcount=0
+  - errPattern="\"type\":\"error\"";
+  - warnPattern="\"subType\":\"warning\"";
+  - bash
+  - allCssFiles=$(find . -type f -name '*.css')
+  - >
+    for cssFile in $allCssFiles; do 
+        response=$(curl -H "Content-Type: text/css; charset=utf-8" --data-binary @$cssFile $url);
+        if echo "$response" | grep -q "$errPattern"; then
+          errors="$cssFile $response $errors";
+          errorcount=$((errorcount+1));
+        elif echo "$response" | grep -q "$warnPattern"; then  
+          errors="$htmlFile $response $errors";
+          warningcount=$((warningcount+1));
+        else
+          errors="$errors ";
+        fi
+    done
+  - >
+    if [[ $errorcount -eq 0 ]]; then
+        if [[ $warningcount -eq 0 ]]; then
+            echo "OK: there are no errors in external CSS";
+        else
+            echo "Warning: there are no errors but warnings in external CSS";
+            echo $errors;
+        fi
+        exit 0;
+    else
+        echo "ERROR: there are some errors in CSS:";
+        echo $errors;
+        exit 1;
+    fi
+  
+xml-validation:
+  stage: test
+  before_script:
+    - skipValidation=0;
+    - directoryToTest="u3";
+    - dirExists=$(find . -type d);
+    - >
+      for dir in $dirExists; do
+        if echo "$dir" | grep -q "$directoryToTest"; then
+            skipValidation=1;
+        fi
+      done
+    - >
+      if [[ $skipValidation -eq 0 ]]; then
+        echo "Skipping xml validation for now";
+        exit 0;
+      fi
+    - apt-get update
+    - apt-get -qq -y install libxml2-utils
+  script:
+    - xmlErrorPattern="error";
+    - echo "Validating xsd for School:";
+    - xsdErrors=$(xmllint --schema ./u3/school.xsd --noout ./u3/school.xml);
+    - >
+      if echo "$xsdErrors" | grep -q "$xmlErrorPattern"; then
+        echo "ERROR: there are some errors in school.xsd";
+        echo $xsdErrors;
+        exit 1;
+      else
+        echo "OK: there are no errors in XML";
+      fi
+
+    - echo "Validating xml for Book:";
+    - xmlErrors=$(xmllint --schema ./u3/books.xsd --noout ./u3/books.xml);
+    - >
+      if echo "$xmlErrors" | grep -q "$xmlErrorPattern"; then
+        echo "ERROR: there are some errors in books.xml";
+        echo $xmlErrors;
+        exit 1;
+      else
+        echo "OK: there are no errors in XML";
+        exit 0;
+      fi
