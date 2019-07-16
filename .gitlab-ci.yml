@@ -95,40 +95,49 @@ xml-validation:
   stage: test
   before_script:
     - skipValidation=0;
-    - directoryToTest="u3";
+    - directoryToTestNormal="u3";
+    - directoryToTestPibs="u8";
     - dirExists=$(find . -type d);
-    - >
-      for dir in $dirExists; do
-        if echo "$dir" | grep -q "$directoryToTest"; then
-            skipValidation=1;
-        fi
-      done
-    - >
-      if [[ $skipValidation -eq 0 ]]; then
-        echo "Skipping xml validation for now";
-        exit 0;
-      fi
     - apt-get update
     - apt-get -qq -y install libxml2-utils
   script:
     - xmlErrorPattern="error";
     - echo "Validating xsd for School:";
-    - xsdErrors=$(xmllint --schema ./u3/school.xsd --noout ./u3/school.xml);
+    - xsdErrorsNormal=$(xmllint --schema ./$directoryToTestNormal/school.xsd --noout ./$directoryToTestNormal/school.xml);
     - >
-      if echo "$xsdErrors" | grep -q "$xmlErrorPattern"; then
+      if echo "$xsdErrorsNormal" | grep -q "$xmlErrorPattern"; then
         echo "ERROR: there are some errors in school.xsd";
-        echo $xsdErrors;
+        echo $xsdErrorsNormal;
+        exit 1;
+      else
+        echo "OK: there are no errors in XML";
+      fi
+    - xsdErrorsPibs=$(xmllint --schema ./$directoryToTestPibs/school.xsd --noout ./$directoryToTestPibs/school.xml);
+    - >
+      if echo "$xsdErrorsPibs" | grep -q "$xmlErrorPattern"; then
+        echo "ERROR: there are some errors in school.xsd";
+        echo $xsdErrorsPibs;
         exit 1;
       else
         echo "OK: there are no errors in XML";
       fi
 
     - echo "Validating xml for Book:";
-    - xmlErrors=$(xmllint --schema ./u3/books.xsd --noout ./u3/books.xml);
+    - xmlErrorsNormal=$(xmllint --schema ./$directoryToTestNormal/books.xsd --noout ./$directoryToTestNormal/books.xml);
     - >
-      if echo "$xmlErrors" | grep -q "$xmlErrorPattern"; then
+      if echo "$xmlErrorsNormal" | grep -q "$xmlErrorPattern"; then
         echo "ERROR: there are some errors in books.xml";
-        echo $xmlErrors;
+        echo $xmlErrorsNormal;
+        exit 1;
+      else
+        echo "OK: there are no errors in XML";
+        exit 0;
+      fi
+    - xmlErrorsPibs=$(xmllint --schema ./$directoryToTestPibs/books.xsd --noout ./$directoryToTestPibs/books.xml);
+    - >
+      if echo "$xmlErrorsPibs" | grep -q "$xmlErrorPattern"; then
+        echo "ERROR: there are some errors in books.xml";
+        echo $xmlErrorsPibs;
         exit 1;
       else
         echo "OK: there are no errors in XML";
