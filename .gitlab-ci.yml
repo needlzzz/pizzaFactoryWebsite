@@ -1,145 +1,48 @@
 stages:
-  - deploy
-  - test
+   - test
 
-w3c-html-validation:
-  stage: test
-  before_script:
-  - apt-get update
-  - apt-get -qq -y install curl
-  - api="https://validator.w3.org/nu/"
-  - out="json"
-  - url="$api?out=$out"
-  script:
-  - errors=""
-  - errorcount=0
-  - warningcount=0
-  - errPattern="\"type\":\"error\"";
-  - warnPattern="\"subType\":\"warning\"";
-  - bash
-  - allHtmlFiles=$(find . -type f -name '*.html')
-  - >
-    for htmlFile in $allHtmlFiles; do 
-        response=$(curl -H "Content-Type: text/html; charset=utf-8" --data-binary @$htmlFile $url);
-        if echo "$response" | grep -q "$errPattern"; then
-          errors="$htmlFile $response $errors";
-          errorcount=$((errorcount+1));
-        elif echo "$response" | grep -q "$warnPattern"; then  
-          errors="$htmlFile $response $errors";
-          warningcount=$((warningcount+1));
-        else
-          errors="$errors ";
-        fi
-    done
-  - >
-    if [[ $errorcount -eq 0 ]]; then
-        if [[ $warningcount -eq 0 ]]; then
-            echo "OK: there are no errors in HTML / inline CSS";
-            exit 0;
-        else
-            echo "Warning: there are no errors but warnings in HTML / inline CSS";
-            echo $errors;
-            exit 0;
-        fi
-    else
-        echo "ERROR: there are some errors in HTML:";
-        echo $errors;
-        exit 1;
+ html-checker:
+   stage: test
+   before_script:
+   - bash
+   - >
+    if [[ $(find . -type f -name '*.html' | wc -l) -eq 0 ]]; then
+        exit 0
     fi
-    
-w3c-css-validation:
-  stage: test
-  before_script:
-  - apt-get update
-  - apt-get -qq -y install curl
-  - api="https://validator.w3.org/nu/"
-  - out="json"
-  - url="$api?out=$out"
-  script:
-  - errors=""
-  - errorcount=0
-  - warningcount=0
-  - errPattern="\"type\":\"error\"";
-  - warnPattern="\"subType\":\"warning\"";
-  - bash
-  - allCssFiles=$(find . -type f -name '*.css')
-  - >
-    for cssFile in $allCssFiles; do 
-        response=$(curl -H "Content-Type: text/css; charset=utf-8" --data-binary @$cssFile $url);
-        if echo "$response" | grep -q "$errPattern"; then
-          errors="$cssFile $response $errors";
-          errorcount=$((errorcount+1));
-        elif echo "$response" | grep -q "$warnPattern"; then  
-          errors="$htmlFile $response $errors";
-          warningcount=$((warningcount+1));
-        else
-          errors="$errors ";
-        fi
-    done
-  - >
-    if [[ $errorcount -eq 0 ]]; then
-        if [[ $warningcount -eq 0 ]]; then
-            echo "OK: there are no errors in external CSS";
-        else
-            echo "Warning: there are no errors but warnings in external CSS";
-            echo $errors;
-        fi
-        exit 0;
-    else
-        echo "ERROR: there are some errors in CSS:";
-        echo $errors;
-        exit 1;
-    fi
-  
-xml-validation:
-  stage: test
-  before_script:
-    - skipValidation=0;
-    - directoryToTestNormal="u3";
-    - directoryToTestPibs="u8";
-    - dirExists=$(find . -type d);
-    - apt-get update
-    - apt-get -qq -y install libxml2-utils
-  script:
-    - xmlErrorPattern="error";
-    - echo "Validating xsd for School:";
-    - xsdErrorsNormal=$(xmllint --schema ./$directoryToTestNormal/school.xsd --noout ./$directoryToTestNormal/school.xml);
-    - >
-      if echo "$xsdErrorsNormal" | grep -q "$xmlErrorPattern"; then
-        echo "ERROR: there are some errors in school.xsd";
-        echo $xsdErrorsNormal;
-        exit 1;
-      else
-        echo "OK: there are no errors in XML";
-      fi
-    - xsdErrorsPibs=$(xmllint --schema ./$directoryToTestPibs/school.xsd --noout ./$directoryToTestPibs/school.xml);
-    - >
-      if echo "$xsdErrorsPibs" | grep -q "$xmlErrorPattern"; then
-        echo "ERROR: there are some errors in school.xsd";
-        echo $xsdErrorsPibs;
-        exit 1;
-      else
-        echo "OK: there are no errors in XML";
-      fi
+   - apt-get update
+   - apt-get -qq -y install nodejs-legacy npm curl
+   - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+   - npm -qq -y install -g htmlhint
+   - export NVM_DIR="${HOME}/.nvm" 
+   - \. "$NVM_DIR/nvm.sh"    
+   - nvm install node
+   script:
+   - htmlhint .
 
-    - echo "Validating xml for Book:";
-    - xmlErrorsNormal=$(xmllint --schema ./$directoryToTestNormal/books.xsd --noout ./$directoryToTestNormal/books.xml);
-    - >
-      if echo "$xmlErrorsNormal" | grep -q "$xmlErrorPattern"; then
-        echo "ERROR: there are some errors in books.xml";
-        echo $xmlErrorsNormal;
-        exit 1;
-      else
-        echo "OK: there are no errors in XML";
-        exit 0;
-      fi
-    - xmlErrorsPibs=$(xmllint --schema ./$directoryToTestPibs/books.xsd --noout ./$directoryToTestPibs/books.xml);
-    - >
-      if echo "$xmlErrorsPibs" | grep -q "$xmlErrorPattern"; then
-        echo "ERROR: there are some errors in books.xml";
-        echo $xmlErrorsPibs;
-        exit 1;
-      else
-        echo "OK: there are no errors in XML";
-        exit 0;
-      fi
+ css-checker:  
+   stage: test
+   before_script:
+   - bash
+   - >
+    if [[ $(find . -type f -name '*.css' | wc -l) -eq 0 ]]; then
+        exit 0
+    fi
+   - apt-get update
+   - apt-get -qq -y install nodejs-legacy npm
+   - npm -qq -y install -g csslint
+   script:
+   - csslint .
+   
+ js-checker:  
+   stage: test
+   before_script:
+   - bash
+   - >
+    if [[ $(find . -type f -name '*.js' | wc -l) -eq 0 ]]; then
+        exit 0
+    fi
+   - apt-get update
+   - apt-get -qq -y install nodejs-legacy npm
+   - npm -qq -y install -g jshint
+   script:
+   - jshint .
