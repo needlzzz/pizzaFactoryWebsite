@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev-cas.webg.2020-aline-marc-maya" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="files von maya umbenennt">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webg-2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/giardino.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev-cas.webg.2020-aline-marc-maya" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-cas.webg.2020-aline-marc-maya" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1glSBdDmXCzYOxFsIAaA4vXokMw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="" />
+      <created>1598687551803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598687551803</updated>
+      <workItem from="1598687552975" duration="934000" />
+      <workItem from="1598697486813" duration="598000" />
+      <workItem from="1598861089238" duration="99000" />
+      <workItem from="1598882355286" duration="2628000" />
+      <workItem from="1598887711732" duration="453000" />
+      <workItem from="1598896078003" duration="90000" />
+      <workItem from="1598896171015" duration="116000" />
+      <workItem from="1598896313395" duration="71000" />
+      <workItem from="1598896495292" duration="41000" />
+      <workItem from="1598898506717" duration="191000" />
+      <workItem from="1598898714390" duration="454000" />
+      <workItem from="1599158260995" duration="166000" />
+      <workItem from="1599204744582" duration="1578000" />
+    </task>
+    <task id="LOCAL-00001" summary="neues file">
+      <created>1598687745017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598687745017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="anpassung welcomepage">
+      <created>1598687891512</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598687891512</updated>
+    </task>
+    <task id="LOCAL-00003" summary="neues file pizza.html">
+      <created>1598688031732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598688031732</updated>
+    </task>
+    <task id="LOCAL-00004" summary="neues file feedback">
+      <created>1598688324106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598688324106</updated>
+    </task>
+    <task id="LOCAL-00005" summary="korrekte links welcomepage">
+      <created>1598688403995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598688403995</updated>
+    </task>
+    <task id="LOCAL-00006" summary="korrekte links pizza">
+      <created>1598688457935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598688457935</updated>
+    </task>
+    <task id="LOCAL-00007" summary="buchstabe &quot;s&quot; gelöscht">
+      <created>1598886916075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598886916075</updated>
+    </task>
+    <task id="LOCAL-00008" summary="head angepasst: &lt;title&gt; überall nach unten">
+      <created>1598887750151</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598887750151</updated>
+    </task>
+    <task id="LOCAL-00009" summary="navigation angepasst. Links zu Welcomepage">
+      <created>1598889697639</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598889697639</updated>
+    </task>
+    <task id="LOCAL-00010" summary="files von maya umbenennt">
+      <created>1599205135589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599205135589</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev-cas.webg.2020-aline-marc-maya" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="neues file" />
+    <MESSAGE value="anpassung welcomepage" />
+    <MESSAGE value="neues file pizza.html" />
+    <MESSAGE value="neues file feedback" />
+    <MESSAGE value="korrekte links welcomepage" />
+    <MESSAGE value="korrekte links pizza" />
+    <MESSAGE value="buchstabe &quot;s&quot; gelöscht" />
+    <MESSAGE value="head angepasst: &lt;title&gt; überall nach unten" />
+    <MESSAGE value="navigation angepasst. Links zu Welcomepage" />
+    <MESSAGE value="files von maya umbenennt" />
+    <option name="LAST_COMMIT_MESSAGE" value="files von maya umbenennt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599206754105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="445" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599206754105" />
+    <state x="221" y="60" key="SettingsEditor" timestamp="1598898770001">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state x="221" y="60" key="SettingsEditor/0.23.1440.796@0.23.1440.796" timestamp="1598898770001" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1599205668550">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.796@0.23.1440.796" timestamp="1599205668550" />
+    <state x="525" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598898971057">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state x="525" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.796@0.23.1440.796" timestamp="1598898971057" />
+    <state x="385" y="190" key="run.anything.popup" timestamp="1598885596541">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state x="385" y="190" key="run.anything.popup/0.23.1440.796@0.23.1440.796" timestamp="1598885596541" />
+  </component>
+</project>
