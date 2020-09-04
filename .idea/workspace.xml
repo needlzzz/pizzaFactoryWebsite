@@ -16,12 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="files von maya umbenennt">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webg-2019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/giardino.png" afterDir="false" />
+    <list default="true" id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="neuer ordner IMG und bilder hinzugefügt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/welcomepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/welcomepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/giardino.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/giardino.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -105,7 +110,7 @@
       <workItem from="1598898506717" duration="191000" />
       <workItem from="1598898714390" duration="454000" />
       <workItem from="1599158260995" duration="166000" />
-      <workItem from="1599204744582" duration="1578000" />
+      <workItem from="1599204744582" duration="2455000" />
     </task>
     <task id="LOCAL-00001" summary="neues file">
       <created>1598687745017</created>
@@ -177,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599205135589</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="neuer ordner IMG und bilder hinzugefügt">
+      <created>1599207097088</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599207097088</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,20 +230,26 @@
     <MESSAGE value="head angepasst: &lt;title&gt; überall nach unten" />
     <MESSAGE value="navigation angepasst. Links zu Welcomepage" />
     <MESSAGE value="files von maya umbenennt" />
-    <option name="LAST_COMMIT_MESSAGE" value="files von maya umbenennt" />
+    <MESSAGE value="neuer ordner IMG und bilder hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="neuer ordner IMG und bilder hinzugefügt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599206754105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="445" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599206754105" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599207751678">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599207751678" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1598898770001">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.796@0.23.1440.796" timestamp="1598898770001" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1599205668550">
-      <screen x="0" y="23" width="1440" height="796" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1599207100847">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599207100847" />
     <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.796@0.23.1440.796" timestamp="1599205668550" />
     <state x="525" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598898971057">
       <screen x="0" y="23" width="1440" height="796" />
