@@ -1,0 +1,1 @@
+Die für die Übung relevante Dateien befinden sich im Verzeichnis "html".
