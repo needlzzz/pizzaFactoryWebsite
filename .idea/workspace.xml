@@ -6,27 +6,21 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev-cas.webg.2020-aline-marc-maya" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1849797a-d1ed-48c5-b5e3-4219e82a1cb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/marcs_version/tonys_pizza_factory/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/marcs_version/tonys_pizza_factory/index.html" afterDir="false" />
+    <list default="true" id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="verlinkungen in navi angepasst">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/welcomepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/welcomepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,183 +30,182 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev-cas.webg.2020-aline-marc-maya" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev.cas.webg.2020-aline-maya" />
+        <entry key="$PROJECT_DIR$" value="dev-cas.webg.2020-aline-marc-maya" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectId" id="1fxXg4f3F248kq4nqw1B9qilKHT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1glSBdDmXCzYOxFsIAaA4vXokMw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/tonys_pizza_factory/images" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\marc\WebstormProjects\webg-2019\projects\tonys_pizza_factory\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\marc\WebstormProjects\webg-2019\projects\tonys_pizza_factory" />
-      <recent name="C:\Users\marc\WebstormProjects\webg-2019" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunManager" selected="Node.js.test.js">
-    <configuration name="js config" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
-      <method v="2" />
-    </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/exercises/test.js" working-dir="$PROJECT_DIR$/exercises">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Attach to Node.js/Chrome.js config" />
-      <item itemvalue="Node.js.test.js" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.test.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1849797a-d1ed-48c5-b5e3-4219e82a1cb1" name="Default Changelist" comment="" />
-      <created>1597160824975</created>
+      <changelist id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="" />
+      <created>1598687551803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597160824975</updated>
-      <workItem from="1597160826083" duration="648000" />
-      <workItem from="1597486376330" duration="795000" />
-      <workItem from="1597487195973" duration="1203000" />
-      <workItem from="1597526883860" duration="6389000" />
-      <workItem from="1597603866454" duration="1530000" />
-      <workItem from="1597653397987" duration="14831000" />
-      <workItem from="1597680563182" duration="4340000" />
-      <workItem from="1597755672082" duration="17000" />
-      <workItem from="1598119189250" duration="1854000" />
-      <workItem from="1598171373410" duration="10282000" />
-      <workItem from="1598897149078" duration="3094000" />
-      <workItem from="1598950647275" duration="14000" />
-      <workItem from="1599727561794" duration="1078000" />
+      <updated>1598687551803</updated>
+      <workItem from="1598687552975" duration="934000" />
+      <workItem from="1598697486813" duration="598000" />
+      <workItem from="1598861089238" duration="99000" />
+      <workItem from="1598882355286" duration="2628000" />
+      <workItem from="1598887711732" duration="453000" />
+      <workItem from="1598896078003" duration="90000" />
+      <workItem from="1598896171015" duration="116000" />
+      <workItem from="1598896313395" duration="71000" />
+      <workItem from="1598896495292" duration="41000" />
+      <workItem from="1598898506717" duration="191000" />
+      <workItem from="1598898714390" duration="454000" />
+      <workItem from="1599158260995" duration="166000" />
+      <workItem from="1599204744582" duration="3038000" />
+      <workItem from="1599722545958" duration="2576000" />
     </task>
-    <task id="LOCAL-00001" summary="test commit">
-      <created>1597530426775</created>
+    <task id="LOCAL-00001" summary="neues file">
+      <created>1598687745017</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1597530426775</updated>
+      <updated>1598687745017</updated>
     </task>
-    <task id="LOCAL-00002" summary="test commit">
-      <created>1597532716696</created>
+    <task id="LOCAL-00002" summary="anpassung welcomepage">
+      <created>1598687891512</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1597532716696</updated>
+      <updated>1598687891512</updated>
     </task>
-    <task id="LOCAL-00003" summary="added files to project">
-      <created>1597654720772</created>
+    <task id="LOCAL-00003" summary="neues file pizza.html">
+      <created>1598688031732</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1597654720772</updated>
+      <updated>1598688031732</updated>
     </task>
-    <task id="LOCAL-00004" summary="added files to project and implemented some structure to the files">
-      <created>1597671249316</created>
+    <task id="LOCAL-00004" summary="neues file feedback">
+      <created>1598688324106</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1597671249316</updated>
+      <updated>1598688324106</updated>
     </task>
-    <task id="LOCAL-00005" summary="corrected some validation errors">
-      <created>1597674135605</created>
+    <task id="LOCAL-00005" summary="korrekte links welcomepage">
+      <created>1598688403995</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1597674135605</updated>
+      <updated>1598688403995</updated>
     </task>
-    <task id="LOCAL-00006" summary="deleted Pizzeria.html and test.html">
-      <created>1597674527250</created>
+    <task id="LOCAL-00006" summary="korrekte links pizza">
+      <created>1598688457935</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1597674527250</updated>
+      <updated>1598688457935</updated>
     </task>
-    <task id="LOCAL-00007" summary="made some changes to the feedback form">
-      <created>1598119272983</created>
+    <task id="LOCAL-00007" summary="buchstabe &quot;s&quot; gelöscht">
+      <created>1598886916075</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1598119272983</updated>
+      <updated>1598886916075</updated>
     </task>
-    <task id="LOCAL-00008" summary="made some changes to the feedback form">
-      <created>1598120016762</created>
+    <task id="LOCAL-00008" summary="head angepasst: &lt;title&gt; überall nach unten">
+      <created>1598887750151</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1598120016762</updated>
+      <updated>1598887750151</updated>
     </task>
-    <task id="LOCAL-00009" summary="corrected some semantic stuff">
-      <created>1598337401851</created>
+    <task id="LOCAL-00009" summary="navigation angepasst. Links zu Welcomepage">
+      <created>1598889697639</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1598337401851</updated>
+      <updated>1598889697639</updated>
     </task>
-    <task id="LOCAL-00010" summary="added new form elements">
-      <created>1598897007470</created>
+    <task id="LOCAL-00010" summary="files von maya umbenennt">
+      <created>1599205135589</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1598897007470</updated>
+      <updated>1599205135589</updated>
     </task>
-    <task id="LOCAL-00011" summary="added my versions of the html exercise">
-      <created>1598900435276</created>
+    <task id="LOCAL-00011" summary="neuer ordner IMG und bilder hinzugefügt">
+      <created>1599207097088</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1598900435276</updated>
+      <updated>1599207097088</updated>
     </task>
-    <task id="LOCAL-00012" summary="added my versions of the html exercise">
-      <created>1598900502888</created>
+    <task id="LOCAL-00012" summary="verlinkungen zu den bildern aktualisiert">
+      <created>1599208021589</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1598900502888</updated>
+      <updated>1599208021589</updated>
     </task>
-    <task id="LOCAL-00013" summary="renamed folder and corrected path">
-      <created>1598900731110</created>
+    <task id="LOCAL-00013" summary="verlinkungen in navi angepasst">
+      <created>1599208410610</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1598900731110</updated>
+      <updated>1599208410610</updated>
     </task>
     <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="TerminalProjectNonSharedOptionsProvider">
-    <option name="shellPath" value="C:\Program Files\Git\git-bash.exe" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -222,7 +215,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev-cas.webg.2020-aline-marc-maya" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -230,121 +235,52 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/webg-2019" />
-    </ignored-roots>
-    <MESSAGE value="test commit" />
-    <MESSAGE value="added files to project" />
-    <MESSAGE value="added files to project and implemented some structure to the files" />
-    <MESSAGE value="corrected some validation errors" />
-    <MESSAGE value="deleted Pizzeria.html and test.html" />
-    <MESSAGE value="made some changes to the feedback form" />
-    <MESSAGE value="corrected some semantic stuff" />
-    <MESSAGE value="added new form elements" />
-    <MESSAGE value="added my versions of the html exercise" />
-    <MESSAGE value="renamed folder and corrected path" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed folder and corrected path" />
+    <MESSAGE value="neues file" />
+    <MESSAGE value="anpassung welcomepage" />
+    <MESSAGE value="neues file pizza.html" />
+    <MESSAGE value="neues file feedback" />
+    <MESSAGE value="korrekte links welcomepage" />
+    <MESSAGE value="korrekte links pizza" />
+    <MESSAGE value="buchstabe &quot;s&quot; gelöscht" />
+    <MESSAGE value="head angepasst: &lt;title&gt; überall nach unten" />
+    <MESSAGE value="navigation angepasst. Links zu Welcomepage" />
+    <MESSAGE value="files von maya umbenennt" />
+    <MESSAGE value="neuer ordner IMG und bilder hinzugefügt" />
+    <MESSAGE value="verlinkungen" />
+    <MESSAGE value="verlinkungen zu den bildern aktualisiert" />
+    <MESSAGE value="verlinkungen in navi angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="verlinkungen in navi angepasst" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="165" key="#Notifications" timestamp="1598897199076">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="445" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599206754105">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="393" y="165" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1598897199076" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597699388099">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="445" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599206754105" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599207751678">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597699388099" />
-    <state x="417" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597657896887">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599207751678" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1599723251499">
+      <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state x="417" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1597657896887" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1597532679992">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.796@0.23.1440.796" timestamp="1599723251499" />
+    <state x="221" y="60" key="SettingsEditor" timestamp="1598898770001">
+      <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1597532679992" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1598332949067">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="221" y="60" key="SettingsEditor/0.23.1440.796@0.23.1440.796" timestamp="1598898770001" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1599208417392">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598332949067" />
-    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599208417392" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.796@0.23.1440.796" timestamp="1599205668550" />
+    <state x="525" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598898971057">
+      <screen x="0" y="23" width="1440" height="796" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="525" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.796@0.23.1440.796" timestamp="1598898971057" />
+    <state x="385" y="189" key="run.anything.popup" timestamp="1599722639459">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.2.bottom" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.2.center" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.2.left" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.2.right" timestamp="1597700933684">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1597700933684" />
-    <state width="1259" height="204" key="GridCell.Tab.3.bottom" timestamp="1597700933696">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597700933696" />
-    <state width="1259" height="204" key="GridCell.Tab.3.center" timestamp="1597700933695">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1597700933695" />
-    <state width="1259" height="204" key="GridCell.Tab.3.left" timestamp="1597700933695">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1597700933695" />
-    <state width="1259" height="204" key="GridCell.Tab.3.right" timestamp="1597700933696">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1597700933696" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1598332989172">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598332989172" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598899733988">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598899733988" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598897127114">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598897127114" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1597670473482">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1597670473482" />
+    <state x="385" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599722639459" />
+    <state x="385" y="190" key="run.anything.popup/0.23.1440.796@0.23.1440.796" timestamp="1598885596541" />
   </component>
 </project>
