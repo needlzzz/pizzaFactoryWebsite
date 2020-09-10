@@ -1,1 +1,1 @@
-In diesem Verzeichnis werden die benötigten HTML-Dateien der Semesterarbeit abgelegt.
+Abgabe 12.09.20: Übung "HTML-Grundgerüst für Projekt entwickeln": Die relevante Dateien befinden sich in diesem HTML-Ordner.
