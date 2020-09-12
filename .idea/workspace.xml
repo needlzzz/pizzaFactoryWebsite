@@ -6,19 +6,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-<<<<<<< HEAD
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:dev-cas.webg.2020-aline-marc-maya" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="ef79966f-4920-4221-9f1e-daeea029958e" name="Default Changelist" comment="read me text" />
-=======
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
@@ -46,18 +33,11 @@
       <change beforePath="$PROJECT_DIR$/html/salad.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/salad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/softdrinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/softdrinks.html" afterDir="false" />
     </list>
->>>>>>> 486bcacf8cceae4d41293325bb82331040621616
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1hJij8Iikmu6dsSWWV6Nf9TdcKm" />
-=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -100,52 +80,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1glSBdDmXCzYOxFsIAaA4vXokMw" />
->>>>>>> 486bcacf8cceae4d41293325bb82331040621616
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ef79966f-4920-4221-9f1e-daeea029958e" name="Default Changelist" comment="div" />
-      <created>1599735728815</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1599735728815</updated>
-      <workItem from="1599735730533" duration="1141000" />
-      <workItem from="1599892529051" duration="761000" />
-    </task>
-    <task id="LOCAL-00001" summary="ergänzung readme datei">
-      <created>1599736607530</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1599736607530</updated>
-    </task>
-    <task id="LOCAL-00002" summary="read me text">
-      <created>1599743618681</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599743618681</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Konsistente Form des Headers">
-      <created>1599892900843</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599892900843</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
-    <servers />
-  </component>
-=======
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -298,7 +237,6 @@
   <component name="TerminalProjectNonSharedOptionsProvider">
     <option name="shellPath" value="C:\Program Files\Git\git-bash.exe" />
   </component>
->>>>>>> 486bcacf8cceae4d41293325bb82331040621616
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -327,22 +265,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-<<<<<<< HEAD
-    <MESSAGE value="ergänzung readme datei" />
-    <MESSAGE value="read me text" />
-    <MESSAGE value="Konsistente Form des Headers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Konsistente Form des Headers" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="100" y="123" width="1240" height="596" key="DiffContextDialog" timestamp="1599736210954">
-      <screen x="0" y="23" width="1440" height="796" />
-    </state>
-    <state x="100" y="123" width="1240" height="596" key="DiffContextDialog/0.23.1440.796@0.23.1440.796" timestamp="1599736210954" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1599892904624">
-      <screen x="0" y="23" width="1440" height="796" />
-    </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.796@0.23.1440.796" timestamp="1599892904624" />
-=======
     <MESSAGE value="neues file" />
     <MESSAGE value="anpassung welcomepage" />
     <MESSAGE value="neues file pizza.html" />
@@ -398,6 +320,5 @@
     </state>
     <state x="385" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599722639459" />
     <state x="385" y="190" key="run.anything.popup/0.23.1440.796@0.23.1440.796" timestamp="1598885596541" />
->>>>>>> 486bcacf8cceae4d41293325bb82331040621616
   </component>
 </project>
