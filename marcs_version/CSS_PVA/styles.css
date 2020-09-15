@@ -1,0 +1,29 @@
+header {
+    background-color: lightblue;
+}
+
+.navi {
+    display: inline;
+    margin-right: 0.5em ;
+    float: right;
+
+}
+
+h1 {
+
+}
+
+body {
+    background-image: url("");
+}
+
+main > h2 {
+    font-size: 3em;
+    text-align: center;
+    display: block;
+
+}
+
+.flexpic {
+
+}
