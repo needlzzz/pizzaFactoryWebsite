@@ -1,0 +1,1 @@
+Abgabe 12.09.20: Übung "HTML-Grundgerüst für Projekt entwickeln": Die für die Übung relevante Dateien befinden sich im Verzeichnis "html".
