@@ -2,6 +2,11 @@ header {
     background-color: lightblue;
 }
 
+footer {
+    background-color: lightblue;
+    width: 100%;
+}
+
 .navi {
     display: inline;
     margin-right: 0.5em ;
@@ -13,10 +18,6 @@ h1 {
 
 }
 
-body {
-    background-image: url("");
-}
-
 main > h2 {
     font-size: 3em;
     text-align: center;
@@ -24,6 +25,71 @@ main > h2 {
 
 }
 
-.flexpic {
+/*img {
+    border-style: solid;
+    border-color: pink;
+    border-width: 3px;
+    width: 100px;
 
+    margin: auto;
+}*/
+
+#mainimage {
+    display: block;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.mainflex {
+    margin: 5px;
+}
+
+#flexcontainer_main {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    padding: 5px;
+    text-align: center;
+}
+
+.caption {
+    display: block;
+    text-align: center;
+}
+
+/*#flex_container_footer {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+} */
+
+#opening {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+}
+
+#quotation {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+}
+
+#address {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+    text-align: right;
+    margin-right: 5px;
 }

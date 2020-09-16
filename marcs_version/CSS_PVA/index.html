@@ -26,29 +26,32 @@
 
 <main>
     <h2>Welcome to Tony's Pizza Factory</h2>
-    <img class="flexpic" src="../../img/restaurant.png" alt="Restaurant" height="400" width="600">
-    <img src="../../img/pizza.png" alt="Pizza" height="200" width="350">
-    <img src="../../img/salad.png" alt="Salad" height="200" width="350">
-    <img src="../../img/softdrinks.png" alt="Softdrinks" height="200" width="350">
+    <img id="mainimage" src="../../img/restaurant.png" alt="Restaurant">
 
+    <div id="flexcontainer_main">
+        <img  src="../../img/pizza.png" class="mainflex" alt="Pizza" height="200" width="350">
+            <span class="caption"></span>
+        <img src="../../img/salad.png" class="mainflex" alt="Salad" height="200" width="350">
+        <img src="../../img/softdrinks.png" class="mainflex" alt="Softdrinks" height="200" width="350">
+    </div>
 </main>
 
-<footer>
-    <div id="opening">
-        <p>Hours:<br>Mon-Thu: <time datetime="11:00">11 am</time> - <time datetime="23:00">11pm</time><br>
-            Fr-Sat: <time datetime="11:00">11 am</time> - <time datetime="00:00">12pm<br>Sunday closed</time></p>
-    </div>
+<div id="flex_container_footer_main">
+    <footer>
+        <div id="opening">
+            <p>Hours:<br>Mon-Thu: <time datetime="11:00">11 am</time> - <time datetime="23:00">11pm</time><br>
+                Fr-Sat: <time datetime="11:00">11 am</time> - <time datetime="00:00">12pm<br>Sunday closed</time></p>
+        </div>
 
-    <div id="quotation">
-        <blockquote>The Pizzeria is one place I have been wanting to visit for a long time. The reason being their Rustica
-            pizza
-            which absolutely blew me away</blockquote><cite> - Jimmy</cite>
-    </div>
-    <br>
-    <div id="address">
-        <p>Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
-    </div>
-</footer>
-
+        <div id="quotation">
+            <blockquote>"The Pizzeria is one place I have been wanting to visit for a long time. The reason being their Rustica
+                pizza
+                which absolutely blew me away" - Jimmy</blockquote>
+        </div>
+        <div id="address">
+            <p>Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
