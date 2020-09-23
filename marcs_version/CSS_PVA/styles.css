@@ -1,3 +1,8 @@
+body {
+    font-size: 1em;
+}
+
+
 header {
     background-color: lightblue;
 }
@@ -5,6 +10,11 @@ header {
 footer {
     background-color: lightblue;
     width: 100%;
+
+}
+
+.footer_flex_container {
+    display: flex;
 }
 
 .navi {
@@ -16,6 +26,10 @@ footer {
 
 h1 {
 
+}
+
+main {
+    width: 100%;
 }
 
 main > h2 {
@@ -34,22 +48,35 @@ main > h2 {
     margin: auto;
 }*/
 
-#mainimage {
+/* .image_wrapper {
+    width: 33.3%;
+} */
+
+#mainimage {    
     display: block;
-    width: 600px;
-    margin: auto;
+    /* width: 600px; */
+    max-width: 100%;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;    
 }
 
 .mainflex {
     margin: 5px;
+    width: 25%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img {
+    max-height: 100%;
 }
 
 #flexcontainer_main {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-    flex-direction: row;
-    align-items: center;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -93,3 +120,20 @@ main > h2 {
     text-align: right;
     margin-right: 5px;
 }
+
+#flexcontainer_pizza {
+    display: flex;
+    width: 25%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+/* #upper4 {
+    width: 25%;
+    flex-direction: row;   
+    object-fit: cover; 
+} */
