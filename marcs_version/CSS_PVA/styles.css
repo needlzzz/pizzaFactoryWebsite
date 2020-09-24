@@ -13,9 +13,7 @@ footer {
 
 }
 
-.footer_flex_container {
-    display: flex;
-}
+
 
 .navi {
     display: inline;
@@ -121,19 +119,72 @@ img {
     margin-right: 5px;
 }
 
-#flexcontainer_pizza {
-    display: flex;
-    width: 25%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    gap: 10px;
-    align-items: flex-start;
+/*STYLES FOR PIZZA PAGE*/
+
+@media(min-width: 460px) {
+    #flexcontainer_pizza_upper, #flexcontainer_pizza_lower{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    #salad_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #softdrink_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
 }
 
-/* #upper4 {
-    width: 25%;
-    flex-direction: row;   
-    object-fit: cover; 
-} */
+.footer_flex_container {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.footer-box {
+    flex-basis: 30%;
+}
+
+#adress_right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pizzapics-box {
+    flex-basis: 20%;
+    justify-content: center;
+
+
+
+
+}
+
+.pictureSize {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/*STYLES FOR SALAD PAGE*/
+
+.salad_box {
+    flex-basis: 20%;
+}
+
+/*STYLES FOR SOFTDRINKS PAGE*/
+
+.softdrink_box {
+
+}
+
