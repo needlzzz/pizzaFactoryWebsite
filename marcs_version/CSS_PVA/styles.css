@@ -2,6 +2,40 @@ body {
     font-size: 1em;
 }
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+
+/*HEADER STYLES*/
+
+.header_container{
+    display: flex;
+    background-color: lightblue;
+    height: 6rem;
+    width: 100%;
+    flex-wrap: wrap;
+    border: black 2px solid;
+    justify-content: space-around;
+
+
+}
+
+.header_nav_box{
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.header_title_box{
+    width: 50%;
+
+}
 
 header {
     background-color: lightblue;
@@ -10,6 +44,9 @@ header {
 footer {
     background-color: lightblue;
     width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+    position: absolute;
 
 }
 
@@ -68,35 +105,34 @@ main > h2 {
     max-height: 100%;
 }
 
+
 img {
     max-height: 100%;
 }
 
-#flexcontainer_main {
+/*#flexcontainer_main {
     display: flex;
-    justify-content: center;
+    width: 100%;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
-    padding: 5px;
-    text-align: center;
+    display: -webkit-flex;*/
+
+
+
+.mainflex_box {
+    flex-basis: 25%;
+
+
 }
+
 
 .caption {
     display: block;
     text-align: center;
 }
 
-/*#flex_container_footer {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-} */
+
 
 #opening {
     font-weight: bold;
@@ -140,9 +176,16 @@ img {
     #softdrink_container {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
-
+    #flexcontainer_main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
 
 }
 
@@ -150,6 +193,8 @@ img {
     display: flex;
     justify-content: space-around;
     height: auto;
+    background-color: lightblue;
+    font-weight: bold;
 }
 
 .footer-box {
@@ -164,16 +209,13 @@ img {
 .pizzapics-box {
     flex-basis: 20%;
     justify-content: center;
-
-
-
+    text-align: center;
 
 }
 
-.pictureSize {
-    width: 100%;
-    object-fit: contain;
-}
+
+
+
 
 
 /*STYLES FOR SALAD PAGE*/

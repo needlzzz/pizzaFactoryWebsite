@@ -3,55 +3,86 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-with, initial-scale=1.0">
-    <meta name="description" content="Best Pizza in Town">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta content="width=device-with, initial-scale=1.0" name="viewport">
+    <meta content="Best Pizza in Town" name="description">
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <title>Tony's Pizza Factory</title>
 </head>
 
 <body>
+<div class="page-container">
+    <div class="content-wrap">
+        <header>
+            <div class="header_container">
+                <div class="header_title_box">
+                    <h1>Tony's Pizza Factory</h1>
+                </div>
+                <div class="header_nav_box">
+                    <nav>
+                        <ul>
+                            <li class="navi"><a href="index.html">Welcome</a></li>
+                            <li class="navi"><a href="pizza.html">Pizza</a></li>
+                            <li class="navi"><a href="salad.html">Salad</a></li>
+                            <li class="navi"><a href="softdrinks.html">Soft Drinks</a></li>
+                            <li class="navi"><a href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
-<header>
-    <h1>Tony's Pizza Factory</h1>
-    <nav>
-        <ul>
-            <li class="navi"><a href="index.html">Welcome</a></li>
-            <li class="navi"><a href="pizza.html">Pizza</a></li>
-            <li class="navi"><a href="salad.html">Salad</a></li>
-            <li class="navi"><a href="softdrinks.html">Soft Drinks</a></li>
-            <li class="navi"><a href="feedback.html">Feedback</a></li>
-        </ul>
-    </nav>
-</header>
+        <main>
+            <h2>Welcome to Tony's Pizza Factory</h2>
+            <img alt="Restaurant" id="mainimage" src="../../img/restaurant.png" >
 
-<main>
-    <h2>Welcome to Tony's Pizza Factory</h2>
-    <img  id="mainimage" src="../../img/restaurant.png" alt="Restaurant">
-    
 
-    <div id="flexcontainer_main">        
-        <img  src="../../img/pizza.png" class="mainflex" alt="Pizza">            
-        <img src="../../img/salad.png" class="mainflex" alt="Salad">      
-        <img src="../../img/softdrinks.png" class="mainflex" alt="Softdrinks">
+            <div id="flexcontainer_main">
+                <div class="mainflex_box">
+                    <a href="pizza.html">
+                        <img alt="Pizza" src="../../img/pizza.png" width="300px" height="200px">
+                    </a>
+                </div>
+                <div class="mainflex_box">
+                    <a href="salad.html">
+                        <img alt="Salad" src="../../img/salad.png" width="300px" height="200px">
+                    </a>
+                </div>
+                <div class="mainflex_box">
+                    <a href="softdrinks.html">
+                        <img alt="Softdrinks" src="../../img/softdrinks.png" width="300px" height="200px">
+                    </a>
+                </div>
+            </div>
+        </main>
+
     </div>
-</main>
+    <footer>
+        <div class="footer_flex_container">
+            <div class="footer-box">
+                <p>Hours:<br>Mon-Thu:
+                    <time datetime="11:00">11 am</time>
+                    -
+                    <time datetime="23:00">11pm</time>
+                    <br>
+                    Fr-Sat:
+                    <time datetime="11:00">11 am</time>
+                    -
+                    <time datetime="00:00">12pm<br>Sunday closed</time>
+                </p>
+            </div>
 
-<footer>
-    <div class="footer_flex_container">
-        <div class="footer-box">
-            <p>Hours:<br>Mon-Thu: <time datetime="11:00">11 am</time> - <time datetime="23:00">11pm</time><br>
-                Fr-Sat: <time datetime="11:00">11 am</time> - <time datetime="00:00">12pm<br>Sunday closed</time></p>
+            <div class="footer-box">
+                <p>"The Pizzeria is one place I have been wanting to visit for a long time. The reason being their
+                    Rustica
+                    pizza
+                    which absolutely blew me away" - Jimmy</p>
+            </div>
+            <div class="footer-box">
+                <p id="adress_right">Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+            </div>
         </div>
+    </footer>
 
-        <div class="footer-box">
-            <p>"The Pizzeria is one place I have been wanting to visit for a long time. The reason being their Rustica
-                pizza
-                which absolutely blew me away" - Jimmy</p>
-        </div>
-        <div class="footer-box">
-            <p id="adress_right">Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
-        </div>
-    </div>
-</footer>
+</div>
 </body>
 </html>
