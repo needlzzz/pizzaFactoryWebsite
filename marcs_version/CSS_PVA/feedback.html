@@ -20,11 +20,11 @@
                     <div class="header_nav_box">
                         <nav>
                             <ul>
-                                <li class="navi"><a href="index.html">Welcome</a></li>
-                                <li class="navi"><a href="pizza.html">Pizza</a></li>
-                                <li class="navi"><a href="salad.html">Salad</a></li>
-                                <li class="navi"><a href="softdrinks.html">Soft Drinks</a></li>
                                 <li class="navi"><a href="feedback.html">Feedback</a></li>
+                                <li class="navi"><a href="softdrinks.html">Soft Drinks</a></li>
+                                <li class="navi"><a href="salad.html">Salad</a></li>
+                                <li class="navi"><a href="pizza.html">Pizza</a></li>
+                                <li class="navi"><a href="index.html">Home</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -32,11 +32,15 @@
             </header>
 
 <main>
-    <h1>Tell us what you think</h1>
+    <h2>Tell us what you think</h2>
 
     <form action="..." method="post">
-        <div>
-            <p>How do you like our pizza?</p>
+        <div id="feedback_container1">
+
+                <div class="feedback_question_box">
+                    <p>How do you like our pizza?</p>
+                </div>
+            <div class="radio_buttons" >
             <input type="radio" id="awesome" name="like" value="awesome" checked="checked">
             <label for="awesome">Awesome</label>
             <input type="radio" id="good" name="like" value="good">
@@ -45,29 +49,46 @@
             <label for="okay">Okay</label>
             <input type="radio" id="poor" name="like" value="poor">
             <label for="poor">Poor</label>
+            </div>
         </div>
-        <div>
-            <p>How do think about our prizes?</p>
-            <input type="radio" id="fair" name="think" value="fair" checked="checked">
-            <label for="fair">Fair</label>
-            <input type="radio" id="okayprize" name="think" value="okay">
-            <label for="okayprize">Okay</label>
-            <input type="radio" id="expensive" name="think" value="expensive">
-            <label for="expensive">Expensive</label>
+        <div id="feedback_container2">
+
+
+                <div class="feedback_question_box">
+                    <p>How do think about our prizes?</p>
+                </div>
+            <div class="radio_buttons">
+                <input type="radio" id="fair" name="think" value="fair" checked="checked">
+                <label for="fair">Fair</label>
+                <input type="radio" id="okayprize" name="think" value="okay">
+                <label for="okayprize">Okay</label>
+                <input type="radio" id="expensive" name="think" value="expensive">
+                <label for="expensive">Expensive</label>
+
+            </div>
         </div>
-        <div>
-            <label for="name">Your name?</label>
-            <input type="text" id="name" name="name"/>
+        <div id="feedback_container3">
+            <div class="feedback_question_box">
+                <label for="name">Your name?</label>
+            </div>
+                <input type="text" id="name" name="name"/>
+
         </div>
-        <div>
-            <label for="email">Your e-mail address?</label>
-            <input type="email" id="email" name="email">
+        <div id="feedback_container4">
+            <div class="feedback_question_box">
+                <label for="email">Your e-mail address?</label>
+            </div>
+                <input type="email" id="email" name="email">
+
         </div>
-        <div>
-            <p>What can we do better?</p>
-            <label for="text"></label>
-            <textarea id="text" name="text" cols="35" rows="10"></textarea>
-            <input type="submit" value="Send"/>
+        <div id="feedback_container5">
+            <div class="feedback_question_box2">
+                <p>What can we do better?</p>
+            </div>
+                <label for="text"></label>
+                <textarea id="text" name="text" cols="35" rows="10"></textarea>
+                <input type="submit" value="Send"/>
+
         </div>
     </form>
 

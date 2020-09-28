@@ -2,6 +2,11 @@ body {
     font-size: 1em;
 }
 
+h2 {
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+
 .page-container {
     position: relative;
     min-height: 100vh;
@@ -41,14 +46,7 @@ header {
     background-color: lightblue;
 }
 
-footer {
-    background-color: lightblue;
-    width: 100%;
-    bottom: 0;
-    height: 2.5rem;
-    position: absolute;
 
-}
 
 
 
@@ -74,24 +72,13 @@ main > h2 {
 
 }
 
-/*img {
-    border-style: solid;
-    border-color: pink;
-    border-width: 3px;
-    width: 100px;
-
-    margin: auto;
-}*/
-
-/* .image_wrapper {
-    width: 33.3%;
-} */
+/*INDEX.HTML STYLES*****************************/
 
 #mainimage {    
     display: block;
     /* width: 600px; */
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -110,13 +97,6 @@ img {
     max-height: 100%;
 }
 
-/*#flexcontainer_main {
-    display: flex;
-    width: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;*/
 
 
 
@@ -155,22 +135,48 @@ img {
     margin-right: 5px;
 }
 
-/*STYLES FOR PIZZA PAGE*/
+/*MEDIA QUERY**************************************/
+/*STYLES FOR PIZZA PAGE**********************/
 
 @media(min-width: 460px) {
-    #flexcontainer_pizza_upper, #flexcontainer_pizza_lower{
+    #flexcontainer_pizza_upper, #flexcontainer_pizza_lower, #softdrink_container{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+        background-color: lightgray;
+        padding-top: 30px;
+
 
 
 
     }
 
+    #feedback_container1, #feedback_container2, #feedback_container3, #feedback_container4, #feedback_container5{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        text-align: left;
+
+
+    }
+
+
+
+
+
+    #flexcontainer_pizza_lower{
+        margin-bottom: 30px;
+    }
+
+    #softdrink_container{
+        padding-bottom: 150px;
+    }
+
     #salad_container {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     #softdrink_container {
@@ -186,6 +192,24 @@ img {
         justify-content: space-around;
         padding-bottom: 50px;
     }
+
+}
+
+.pizzapics-box {
+    flex-basis: 20%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/*FOOTERS STYLES**********************/
+
+footer {
+    background-color: lightblue;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+    position: absolute;
 
 }
 
@@ -206,27 +230,59 @@ img {
     justify-content: flex-end;
 }
 
-.pizzapics-box {
-    flex-basis: 20%;
-    justify-content: center;
-    text-align: center;
-
-}
 
 
 
 
 
 
-/*STYLES FOR SALAD PAGE*/
+
+/*STYLES FOR SALAD PAGE************************/
 
 .salad_box {
     flex-basis: 20%;
 }
 
+#main_salad_container{
+    background-color: lightgray;
+}
+
 /*STYLES FOR SOFTDRINKS PAGE*/
 
-.softdrink_box {
+
+
+#softdrinks_h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+/*STYLES FOR FEEDBACK-PAGE************************/
+
+
+.feedback_question_box {
+    display: inline-flex;
+    width: 200px;
+}
+
+.feedback_question_box2{
+    width: 200px;
+    display: inline-flex;
+}
+
+.radio_buttons{
+    width: 300px;
+    align-items: center;
+    vertical-align: center;
 
 }
+
+#name, #email, #text {
+    width: 300px;
+}
+
+
+
+
+
+
 
