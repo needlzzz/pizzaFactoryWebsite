@@ -1,6 +1,54 @@
+body {
+    font-size: 1em;
+}
+
+h2 {
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+
+/*HEADER STYLES*/
+
+.header_container{
+    display: flex;
+    background-color: lightblue;
+    height: 6rem;
+    width: 100%;
+    flex-wrap: wrap;
+    border: black 2px solid;
+    justify-content: space-around;
+
+
+}
+
+.header_nav_box{
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.header_title_box{
+    width: 50%;
+
+}
+
 header {
     background-color: lightblue;
 }
+
+
+
+
 
 .navi {
     display: inline;
@@ -13,8 +61,8 @@ h1 {
 
 }
 
-body {
-    background-image: url("");
+main {
+    width: 100%;
 }
 
 main > h2 {
@@ -24,6 +72,217 @@ main > h2 {
 
 }
 
-.flexpic {
+/*INDEX.HTML STYLES*****************************/
+
+#mainimage {    
+    display: block;
+    /* width: 600px; */
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;    
+}
+
+.mainflex {
+    margin: 5px;
+    width: 25%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+img {
+    max-height: 100%;
+}
+
+
+
+
+.mainflex_box {
+    flex-basis: 25%;
+
 
 }
+
+
+.caption {
+    display: block;
+    text-align: center;
+}
+
+
+
+#opening {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+}
+
+#quotation {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+}
+
+#address {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+    text-align: right;
+    margin-right: 5px;
+}
+
+/*MEDIA QUERY**************************************/
+/*STYLES FOR PIZZA PAGE**********************/
+
+@media(min-width: 460px) {
+    #flexcontainer_pizza_upper, #flexcontainer_pizza_lower, #softdrink_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: lightgray;
+        padding-top: 30px;
+
+
+
+
+    }
+
+    #feedback_container1, #feedback_container2, #feedback_container3, #feedback_container4, #feedback_container5{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        text-align: left;
+
+
+    }
+
+
+
+
+
+    #flexcontainer_pizza_lower{
+        margin-bottom: 30px;
+    }
+
+    #softdrink_container{
+        padding-bottom: 150px;
+    }
+
+    #salad_container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #softdrink_container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #flexcontainer_main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+
+}
+
+.pizzapics-box {
+    flex-basis: 20%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/*FOOTERS STYLES**********************/
+
+footer {
+    background-color: lightblue;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+    position: absolute;
+
+}
+
+.footer_flex_container {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.footer-box {
+    flex-basis: 30%;
+}
+
+#adress_right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+/*STYLES FOR SALAD PAGE************************/
+
+.salad_box {
+    flex-basis: 20%;
+}
+
+#main_salad_container{
+    background-color: lightgray;
+}
+
+/*STYLES FOR SOFTDRINKS PAGE*/
+
+
+
+#softdrinks_h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+/*STYLES FOR FEEDBACK-PAGE************************/
+
+
+.feedback_question_box {
+    display: inline-flex;
+    width: 200px;
+}
+
+.feedback_question_box2{
+    width: 200px;
+    display: inline-flex;
+}
+
+.radio_buttons{
+    width: 300px;
+    align-items: center;
+    vertical-align: center;
+
+}
+
+#name, #email, #text {
+    width: 300px;
+}
+
+
+
+
+
+
+

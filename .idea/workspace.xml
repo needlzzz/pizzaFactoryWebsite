@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-=======
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -346,6 +342,5 @@
     </state>
     <state x="385" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599722639459" />
     <state x="385" y="190" key="run.anything.popup/0.23.1440.796@0.23.1440.796" timestamp="1598885596541" />
->>>>>>> 0ecb9b1c3b45aa0fd59fd61a9381e7e38d8c906d
   </component>
 </project>
