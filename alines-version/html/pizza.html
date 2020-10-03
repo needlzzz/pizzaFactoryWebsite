@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <meta name="description" content="Hunger? Wir servieren und liefern die beste Pizza in deiner Stadt.">
+    <title>Tony's Pizza Factory</title>
+    <link rel="stylesheet" href="../css/pizzastyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../img/pizza-favicon.png">
+</head>
+
+<body>
+
+<header>
+    <h1>Tony's Pizza Factory</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="welcomepage.html">Welcome</a>
+        <a href="pizza.html">Pizza</a>
+        <a href="salad.html">Salad</a>
+        <a href="softdrinks.html">Soft Drinks</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+</header>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<main>
+    <h2>Pizza</h2>
+
+    <div id="containerarticleup">
+        <div class="article">
+            <img alt="Piccante" src="../img/piccante.png" width="300px" height="300px">
+            <div class="articlepriceicon">
+            <p class="sort">Piccante</p><span>16 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+            </div>
+            <p class="topping">Tomato, mozzarella, spicy salami, chillies, oregano</p>
+        </div>
+
+        <div class="article">
+            <img alt="Giardino" src="../img/giardino.png" width="300px" height="300px">
+            <div class="articlepriceicon">
+                <p class="sort">Giardino</p><span>14 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+            </div>
+                <p class="topping">Tomato, mozzarella, artichokes, fresh mushrooms</p>
+        </div>
+
+        <div class="article">
+            <img alt="Prosciutto e funghi" src="../img/prosciuttoefunghi.png" width="300px" height="300px">
+            <div class="articlepriceicon">
+            <p class="sort">Prosciutto e funghi</p><span>15 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+            </div>
+            <p class="topping">Tomato, mozzarella, ham, fresh mushrooms, oregano</p>
+        </div>
+
+        <div class="article">
+        <img alt="Quattro Formaggi" src="../img/quattroformaggi.png" width="300px" height="300px">
+            <div class="articlepriceicon">
+        <p class="sort">Quattro formaggi</p><span>13 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+            </div>
+        <p class="topping">Tomato, mozzarella, parmesan, gorgonzola (blue cheese)</p>
+        </div>
+    </div>
+
+    <div id="containerarticledown">
+    <div class="article">
+        <img alt="Quattro Stagioni" src="../img/quattrostagioni.png" width="300px" height="300px">
+        <div class="articlepriceicon">
+        <p class="sort">Quattro stagioni</p><span>17 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+        </div>
+        <p class="topping">Tomato, mozzarella, ham, artichokes, fresh mushrooms</p>
+    </div>
+
+    <div class="article">
+        <img alt="Stromboli" src="../img/stromboli.png" width="300px" height="300px">
+        <div class="articlepriceicon">
+        <p class="sort">Stromboli</p><span>12 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+        </div>
+        <p class="topping">Tomato, mozzarella, fresh chillies, olives, oregano</p>
+    </div>
+
+
+    <div class="article">
+        <img alt="Verde" src="../img/verde.png" width="300px" height="300px">
+        <div class="articlepriceicon">
+        <p class="sort">Verde</p><span>13 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+        </div>
+        <p class="topping">Tomato, mozzarella, broccoli, spinach, oregano</p>
+    </div>
+
+    <div class="article">
+        <img alt="Rustica" src="../img/rustica.png" width="300px" height="300px">
+        <div class="articlepriceicon">
+        <p class="sort">Rustica</p><span>15 $</span><img class=icon alt="buy" src="../img/buy-icon.png" width="30px" height="30px">
+        </div>
+        <p class="topping">Tomato, mozzarella, ham, bacon, onions, garlic, orgeano</p>
+    </div>
+    </div>
+</main>
+
+
+<footer>
+    <div id="footerelements">
+        <div id="opening">
+            <p>Hours:<br>Mon-Thu: <time datetime="11:00">11 am</time> - <time datetime="23:00">11pm</time><br>
+                Fr-Sat: <time datetime="11:00">11 am</time> - <time datetime="00:00">12pm<br>Sunday closed</time></p>
+        </div>
+
+        <div id="quotation">
+            <blockquote>The Pizzeria is one place I have been wanting</br>to visit for a long time. The reason being their Rustica</br>
+                pizza
+                which absolutely blew me away</blockquote><cite> - Jimmy</cite>
+        </div>
+        <br>
+        <div id="address">
+            <p>Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
