@@ -3,103 +3,120 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-with, initial-scale=1.0">
-    <meta name="description" content="Etwas gesundes neben deiner Pizza? Bei uns kannst du diverse bunte und frische Salate bestellen.">
+    <meta content="width=device-with, initial-scale=1.0" name="viewport">
+    <meta content="Etwas gesundes neben deiner Pizza? Bei uns kannst du diverse bunte und frische Salate bestellen."
+          name="description">
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <title>Salad</title>
 </head>
 
 
 <body>
+<div class="page-container">
+    <div class="content-wrap">
+        <header>
+            <div class="header_container">
+                <div class="header_title_box">
+                    <h1>Tony's Pizza Factory</h1>
+                </div>
+                <div class="header_nav_box">
+                    <nav>
+                        <ul>
+                            <li class="navi"><a href="feedback.html">Feedback</a></li>
+                            <li class="navi"><a href="softdrinks.html">Soft Drinks</a></li>
+                            <li class="navi"><a href="salad.html">Salad</a></li>
+                            <li class="navi"><a href="pizza.html">Pizza</a></li>
+                            <li class="navi"><a href="index.html">Home</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
-<header>
-    <h1>Tony's Pizza Factory</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Welcome</a></li>
-            <li><a href="pizza.html">Pizza</a></li>
-            <li><a href="salad.html">Salad</a></li>
-            <li><a href="softdrinks.html">Soft Drinks</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-        </ul>
-    </nav>
-</header>
+
+        <main id="main_salad_container">
+            <h2> Salad </h2>
+
+            <div id="salad_container">
+                <div class="salad_box">
+                    <img alt="Green salad with tomatoe" height="200" src="../../img/salad.png" width="250">
+                    <h2>Green salad with tomatoe</h2>
+                    <p>Iceberg lettuce, tomatoes</p>
+                    <select name="dressingselect">
+                        <option> Italian Dressing</option>
+                        <option> French Dressing</option>
+                    </select>
+                    <span class="price"> 4$</span>
+                </div>
+
+                <div class="salad_box">
+                    <img alt="Tomato salad with mozzarella" height="200" src="../../img/salad.png" width="250">
+                    <h2>Tomato salad with mozzarella</h2>
+                    <p>Tomatoes, mozzarella</p>
+                    <select name="dressingselect">
+                        <option> Italian Dressing</option>
+                        <option> French Dressing</option>
+                    </select>
+                    <span class="price"> 5$</span>
+                </div>
+
+                <div class="salad_box">
+                    <img alt="Field salad with egg" height="200" src="../../img/salad.png" width="250">
+                    <h2>Field salad with egg</h2>
+                    <p>Field salad, egg</p>
+                    <select name="dressingselect">
+                        <option> Italian Dressing</option>
+                        <option> French Dressing</option>
+                    </select>
+                    <span class="price"> 4$</span>
+                </div>
+
+                <div class="salad_box">
+                    <img alt="Rocket with Parmesan" height="200" src="../../img/salad.png" width="250">
+                    <h2>Rocket with Parmesan</h2>
+                    <p>Rocket, parmesan</p>
+                    <select name="dressingselect">
+                        <option> Italian Dressing</option>
+                        <option> French Dressing</option>
+                    </select>
+                    <span class="price"> 5$</span>
+                </div>
+            </div>
 
 
+        </main>
 
 
-<main>
-    <h1> Salad </h1>
-    
-    <div>
-        <img src=".." alt="Green salad with tomatoe" height="200" width="250">
-        <h2>Green salad with tomatoe</h2>
-        <p>Iceberg lettuce, tomatoes</p>
-        <select name="dressingselect">
-            <option> Italian Dressing </option>
-            <option> French Dressing </option>
-        </select>
-        <span class="price"> 4$</span>
     </div>
-    
-    <div>
-        <img src=".." alt="Tomato salad with mozzarella" height="200" width="250">
-        <h2>Tomato salad with mozzarella</h2>
-        <p>Tomatoes, mozzarella</p>
-        <select name="dressingselect">
-            <option> Italian Dressing </option>
-            <option> French Dressing </option>
-        </select>
-        <span class="price"> 5$</span>
-    </div>
+    <footer>
+        <div class="footer_flex_container">
+            <div class="footer-box">
+                <p>Hours:<br>Mon-Thu:
+                    <time datetime="11:00">11 am</time>
+                    -
+                    <time datetime="23:00">11pm</time>
+                    <br>
+                    Fr-Sat:
+                    <time datetime="11:00">11 am</time>
+                    -
+                    <time datetime="00:00">12pm<br>Sunday closed</time>
+                </p>
+            </div>
 
-    <div>
-        <img src=".." alt="Field salad with egg" height="200" width="250">
-        <h2>Field salad with egg</h2>
-        <p>Field salad, egg</p>
-        <select name="dressingselect">
-            <option> Italian Dressing </option>
-            <option> French Dressing </option>
-        </select>
-        <span class="price"> 4$</span>
-    </div>
-
-    <div>
-        <img src=".." alt="Rocket with Parmesan" height="200" width="250">
-        <h2>Rocket with Parmesan</h2>
-        <p>Rocket, parmesan</p>
-        <select name="dressingselect">
-            <option> Italian Dressing </option>
-            <option> French Dressing </option>
-        </select>
-        <span class="price"> 5$</span>
-    </div>
+            <div class="footer-box">
+                <p>"The Pizzeria is one place I have been wanting to visit for a long time. The reason being their
+                    Rustica
+                    pizza
+                    which absolutely blew me away" - Jimmy</p>
+            </div>
+            <div class="footer-box">
+                <p id="adress_right">Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+            </div>
+        </div>
+    </footer>
 
 
-    
-</main>
-
-
-
-
-<footer>
-    <div id="opening">
-        <p>Hours:<br>Mon-Thu: <time datetime="11:00">11 am</time> - <time datetime="23:00">11pm</time><br>
-            Fr-Sat: <time datetime="11:00">11 am</time> - <time datetime="00:00">12pm<br>Sunday closed</time></p>
-    </div>
-
-    <div id="quotation">
-        <blockquote>The Pizzeria is one place I have been wanting to visit for a long time. The reason being their Rustica
-            pizza
-            which absolutely blew me away</blockquote><cite> - Jimmy</cite>
-    </div>
-    <br>
-    <div id="address">
-        <p>Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
-    </div>
-</footer>
-
-
-
+</div>
 </body>
 
 </html>

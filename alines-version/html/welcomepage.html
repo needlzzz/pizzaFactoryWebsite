@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <meta name="description" content="Best Pizza in Town">
+    <title>Tony's Pizza Factory</title>
+    <link rel="stylesheet" href="../css/pizzastyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../img/pizza-favicon.png">
+</head>
+
+<body>
+
+<header>
+    <h1>Tony's Pizza Factory</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="welcomepage.html">Welcome</a>
+        <a href="pizza.html">Pizza</a>
+        <a href="salad.html">Salad</a>
+        <a href="softdrinks.html">Soft Drinks</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+</header>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<main>
+    <h2>Welcome to Tony's Pizza Factory</h2>
+        <div id="images">
+        <img src="../img/restaurant.png" alt="Restaurant" class="picbig" width="400px" height="400px">
+            <div id="containerimages">
+                <a href="pizza.html"><img class=titleimages src="../img/pizza.png" alt="Pizza" width="200px" height="200px"></a>
+                <a href="salad.html"><img class=titleimages src="../img/salad.png" alt="Salad" width="200px" height="200px"></a>
+                <a href="softdrinks.html"><img class=titleimages src="../img/softdrinks.png" alt="Softdrinks" width="200px" height="200px"></a>
+            </div>
+    </div>
+</main>
+
+
+<footer>
+    <div id="footerelements">
+    <div id="opening">
+        <p>Hours:<br>Mon-Thu: <time datetime="11:00">11 am</time> - <time datetime="23:00">11pm</time><br>
+            Fr-Sat: <time datetime="11:00">11 am</time> - <time datetime="00:00">12pm<br>Sunday closed</time></p>
+    </div>
+
+    <div id="quotation">
+        <blockquote>The Pizzeria is one place I have been wanting</br>to visit for a long time. The reason being their Rustica</br>
+            pizza
+            which absolutely blew me away</blockquote><cite> - Jimmy</cite>
+    </div>
+    <br>
+    <div id="address">
+        <p>Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>

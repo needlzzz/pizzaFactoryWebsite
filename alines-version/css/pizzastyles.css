@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+
+
+/*footer*/
+
+footer {
+    background-color: #333;
+    padding: 1em;
+    margin: 1em 0 1em 0;
+    color: white;
+}
+
+#footerelements {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/*hauptteil*/
+
+
+h1 {
+    padding: 0 0 0 1em;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+#containerarticleup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+
+#containerarticledown {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10%;
+    padding: 0.2em;
+    margin-top: 0.5em;
+}
+
+.articlepriceicon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topping {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+
+span {
+    padding: 1em;
+}
+
+.icon {
+    padding: 0.3em;
+}
+
+.sort {
+    font-weight: bold;
+}
+
+span {
+margin-left: auto;
+}
+
+
+
+
+
+/*Bilder auf welcomepage*/
+
+
+
+.picbig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+
+#containerimages {
+    display: flex;
+    flex-basis: 33%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titleimages {
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+/*@media only screen and (max-width: 600px) {
+    .pic {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #article {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    img {
+        width: 350px;
+        height: auto;
+    }
+}
+ */
+
+
+
+
+
+/*CSS Feedback Formular*/
+
+
+form p {
+    font-weight: bold;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text],[type=email], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+label[for=name], [for=email], [for=text]{
+    font-weight: bold;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover{
+    background-color: darkgreen;
+}
+
+/* Style the container */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+@media screen and (max-width: 600px) {
+    .col-25 {
+        margin-top: 1em;
+    }
+
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+        margin-top: 0.2em;
+    }
+}
+
+
+
+
+
+/*    body {
+        background-color: lightblue;
+    }
+
+    @media screen and (min-width: 400px) {
+        body {
+            background-color: lightgreen;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        body {
+            background-color: lavender;
+        }
+    }
+ */
