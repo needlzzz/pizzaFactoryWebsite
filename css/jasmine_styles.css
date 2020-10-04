@@ -1,0 +1,267 @@
+
+@charset "UTF-8";
+html {
+  font-family: "Source Sans Pro", sans-serif, "Helvatica Neue", Arial;
+  color: #2b2b2b;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+    color: #2b2b2b; /* sagt, dass alle p die dunkelgraue Schrift haben */
+}
+
+/* Hier kommt der Header-Bereich*/
+
+.header {
+    height: 100px;
+    background-color: #9FC5F8;
+    background-size: cover;
+    background-position: 50% 60%;
+    border: 0.125em solid black;
+}
+
+.header-navbar {
+    overflow: hidden;
+}
+
+.header-navbar-links {
+    color: rgb(44, 44, 44);
+    float: right;
+    display: block;
+    margin-top: 2em;
+    margin-right: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .header-navbar-links{
+      float: none;
+      width: 100%;
+    }
+  }
+
+.header-brand-wrapper {
+    margin-top: 3em;
+    float: left;
+}
+
+.header-brand {
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: -10%;
+    padding-left: 20px;
+    display: block;
+}
+
+/* Hier kommt der Hauptbereich*/
+
+
+
+.maintitle {
+    color: rgb(44, 44, 44);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.content_top {   /* Das ist das Hauptbild auf der Front */ 
+    text-align: center;
+}
+
+.content_bottom { /* Das sind die kleinen Front Bilder */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content_bottom_link {  /* - tbd - Das wird der Link auf den kleinen Front Bildern */
+    margin: 5%;
+}
+
+#container {  /* Das ist der Container für die Subsites */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#box { /* Das sind die einzlenen Boxen auf den Subsites */
+    width: 250px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.feature-icon {   /* Das ist das Shopping Cart Icon */
+    justify-content: right;
+    float: right;
+    padding-left: 5%;
+}
+
+.price {
+    font-size: 120%;
+    font-weight: bold;
+    float: right;
+}
+
+.ingredients {
+    font-size: small;
+}
+
+
+/* Formular */
+
+form {
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    padding: 10px;
+}
+
+.question {
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.answer {
+
+}
+
+
+
+.send {
+    float: right;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+input[type=submit] {
+    background-color: white;
+    float: right;
+    box-shadow: 0.2em 0.2em;
+    border: 0.05em solid;
+}
+
+
+
+
+
+/* Hier ist der Footer*/
+
+
+.footer {
+    background-color: #9FC5F8;
+    border: 0.125em solid black;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    bottom: 0;
+  }
+
+#opening {
+    display: inline-block;
+    text-align: left;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 2em;
+}
+
+#quotation{
+    display: inline-block;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 2em;
+}
+
+
+#address {
+    display: inline-block;
+    text-align: right;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-right: 2em;
+}
+
+
+
+/* Footer von Marc - tbd */
+
+.footervonmarc {
+    background-color: lightblue;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+    position: absolute;
+
+}
+
+.footer_flex_container {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.footer-box {
+    flex-basis: 30%;
+}
+
+
+
+
+body {
+    background-color: lightblue;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
+
+
+
