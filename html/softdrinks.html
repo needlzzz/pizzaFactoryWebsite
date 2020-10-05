@@ -4,96 +4,103 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
-    <meta name="description" content="Ob Cola, Fanta oder Redbull. Hier bestellst du das passende Erfrischungsgetränk zu deiner Pizza.">
-    <title>Soft drinks</title>
-</head>
+    <meta name="description" content="Best Pizza in Town">
+    <title>Tony's Pizza Factory</title>
+    <link href="../css/jasmine_styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 
+</head>
 
 <body>
 
-<header>
-    <h1>Tony's Pizza Factory</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Welcome</a></li>
-            <li><a href="pizza.html">Pizza</a></li>
-            <li><a href="salad.html">Salad</a></li>
-            <li><a href="softdrinks.html">Soft Drinks</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-        </ul>
-    </nav>
+
+<header class="header">
+        <div class="header-brand-wrapper">
+        <a class="header-brand" href="index.html">Tony's Pizza Fatory</a>
+        </div>
+        <nav class="header-navbar">
+            <ul class="header-navbar-links">
+                <li><a href="pizza.html" class="menu" alt="pizza">Pizza</a></li>
+                <li><a href="salad.html" class="menu" alt="pizza">Salad</a></li>
+                <li><a href="softdrinks.html" class="menu" alt="pizza">Soft drinks</a></li>
+                <li><a href="feedback.html" class="menu" alt="feedback">Feedback</a></li>
+            </ul>
+        </nav>
 </header>
 
 
-<main>
-    <h1>Soft drinks</h1>
+<main class="main">
+    <h1 class="maintitle">Soft drinks</h1>
+    <div id="container">
 
-    <div>
-        <img alt="Green salad with tomatoe" height="200" src=".." width="250">
-        <h2>Coke</h2>
-        <select name="cokeselect">
+        <div class="box">
+            <img class="itemimage" src="../img/coke.png" alt="image of coke" height="200" width="250">
+            <h2 class="subtitle">Coke</h2>
+            <select name="itemselect">
             <option>50cl</option>
             <option>100cl</option>
-        </select>
-        <span class="price"> 2$</span>
-    </div>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
 
-    <div>
-        <img alt="Green salad with tomatoe" height="200" src=".." width="250">
-        <h2>Fanta</h2>
-        <select name="fantaselect">
-            <option> 50cl</option>
-            <option> 100cl</option>
-        </select>
-        <span class="price"> 2$</span>
-    </div>
-    <div>
-        <img alt="Green salad with tomatoe" height="200" src=".." width="250">
-        <h2>Pepsi</h2>
-        <select name="pepsiselect">
-            <option> 50cl</option>
-            <option> 100cl</option>
-        </select>
-        <span class="price"> 2$</span>
-    </div>
-    <div>
-        <img alt="Green salad with tomatoe" height="200" src=".." width="250">
-        <h2>Red bull</h2>
-        <select name="redbullselect">
-            <option> 50cl</option>
-            <option> 100cl</option>
-        </select>
-        <span class="price"> 2$</span>
+        <div class="box">
+            <img class="itemimage" src="../img/fanta.png" alt="image of fanta" height="200" width="250">
+            <h2 class="subtitle">Fanta</h2>
+            <select name="itemselect">
+            <option>50cl</option>
+            <option>100cl</option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
+
+        <div class="box">
+            <img class="itemimage" src="../img/pepsi.png" alt="image of pepsi" height="200" width="250">
+            <h2 class="subtitle">Pepsi</h2>
+            <select name="itemselect">
+            <option>50cl</option>
+            <option>100cl</option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
+
+        <div class="box">
+            <img class="itemimage" src="../img/redbull.png" alt="image of redbull" height="200" width="250">
+            <h2 class="subtitle">Red bull</h2>
+            <select name="itemselect">
+            <option>50cl</option>
+            <option>100cl</option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
     </div>
 </main>
 
 
-<footer>
-    <div id="opening">
-        <p>Hours:<br>Mon-Thu:
-            <time datetime="11:00">11 am</time>
-            -
-            <time datetime="23:00">11pm</time>
-            <br>
-            Fr-Sat:
-            <time datetime="11:00">11 am</time>
-            -
-            <time datetime="00:00">12pm<br>Sunday closed</time>
-        </p>
-    </div>
+<div class="footer_flex_container">
+    <footer class="footer">
+        <div id="opening">
+            <p>Hours:<br>Mon-Thu: <time datetime="11:00">11 am</time> - <time datetime="23:00">11pm</time><br>
+                Fr-Sat: <time datetime="11:00">11 am</time> - <time datetime="00:00">12pm<br>Sunday closed</time></p>
+        </div>
 
-    <div id="quotation">
-        <blockquote>The Pizzeria is one place I have been wanting to visit for a long time. The reason being their Rustica
-            pizza
-            which absolutely blew me away</blockquote><cite> - Jimmy</cite>
-    </div>
-    <br>
-    <div id="address">
-        <p>Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
-    </div>
-</footer>
+        <div id="quotation">
+            <blockquote>The Pizzeria is one place I have been wanting to visit for a long time. The reason being their Rustica
+                pizza which absolutely blew me away<cite> - Jimmy</cite></blockquote>
+        </div>
 
+        <div id="address">
+            <p>Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+        </div>
+    </footer>
+</div>
 
 </body>
-
 </html>
