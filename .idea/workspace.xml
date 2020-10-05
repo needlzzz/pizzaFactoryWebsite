@@ -19,23 +19,19 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dev-bsc.webg.20" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="verlinkungen in navi angepasst">
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/feedback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/pizza.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/salad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/softdrinks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marcs_version/CSS_PVA/welcomepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="89effba6-25a9-4ce9-ba95-86523cdc91d4" name="Default Changelist" comment="aline version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -327,12 +323,12 @@
     </state>
     <state x="2215" y="48" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599896700368" />
     <state x="221" y="60" key="SettingsEditor/0.23.1440.796@0.23.1440.796" timestamp="1598898770001" />
-    <state x="284" y="118" key="Vcs.Push.Dialog.v2" timestamp="1599733227157">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601715057450">
+      <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="284" y="118" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599733227157" />
     <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599208417392" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.796@0.23.1440.796" timestamp="1599205668550" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.796@0.23.1440.796" timestamp="1601715057450" />
     <state x="525" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598898971057">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
