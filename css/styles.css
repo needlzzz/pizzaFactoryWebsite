@@ -7,11 +7,10 @@ html {
 body {
     font-family: "Source Sans Pro", sans-serif;
     margin: 0;
-    ;
 }
 
 p {
-    color: #2b2b2b; /* sagt, dass alle p die dunkelgraue Schrift haben */
+    color: #2b2b2b;
 }
 
 /* Hier kommt der Header-Bereich*/
@@ -37,7 +36,6 @@ p {
     text-align: left;
     text-decoration: none;
     list-style-type: none;
-
 }
 
 .header-navbar-links li {
@@ -81,7 +79,7 @@ p {
     justify-content: center;
 }
 
-.content_top {   /* Das ist das Hauptbild auf der Front */ 
+.content_top {   /* Welcome to Tony's Pizza Factory und Hauptbild */
     text-align: center;
 }
 
@@ -312,3 +310,6 @@ body {
 
     }
 }
+
+
+
