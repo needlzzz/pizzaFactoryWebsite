@@ -6,6 +6,7 @@ html {
 
 body {
     font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
     ;
 }
 
@@ -126,7 +127,7 @@ p {
 }
 
 
-/* Hier komtm das Formular (tbd von Aline)  */
+/* altes Formular
 
 form {
     color: black;
@@ -168,81 +169,7 @@ input[type=submit] {
     box-shadow: 0.2em 0.2em;
     border: 0.05em solid;
 }
-
-
-/* Hier ist der Footer*/
-
-
-.footer {
-    background-color: #9FC5F8;
-    width: 100%;
-    bottom: 0;
-    height: auto;
-    
-    margin-top: auto;
-
-}
-
-.footer_flex_container {
-    display: flex;
-    justify-content: space-around;
-    height: auto;
-    background-color: lightblue;
-    font-weight: bold;
-    width: 100%;
-    margin-top: auto;
-    
-}
-
-.footer-box {
-    flex-basis: 30%;
-}
-
-#opening {
-    font-weight: bold;
-    display: inline-block;
-    width: 32%;
-    text-align: left;
-}
-
-#quotation {
-    font-weight: bold;
-    display: inline-block;
-    width: 32%;
-}
-
-#address {
-    font-weight: bold;
-    display: inline-block;
-    width: 32%;
-    text-align: right;
-    margin-right: 5px;
-}
-
- 
-
-
-
-
-
-body {
-    background-color: lightblue;
-  }
-  
-  @media screen and (min-width: 400px) {
-    body {
-      background-color: lightgreen;
-      
-    }
-  }
-  
-  @media screen and (min-width: 800px) {
-    body {
-      background-color: lavender;
-      
-    }
-  }
-
+*/
 
 
 /*CSS Feedback Formular*/
@@ -274,7 +201,7 @@ label[for=name], [for=email], [for=text]{
 
 /* Style the submit button */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #3874cf;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -284,13 +211,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover{
-    background-color: darkgreen;
+    background-color: darkblue;
 }
 
 /* Style the container */
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 20px;
 }
 
@@ -313,4 +240,75 @@ input[type=submit]:hover{
     content: "";
     display: table;
     clear: both;
+}
+
+/* Hier kommt der Footer*/
+
+.footer {
+    background-color: #9FC5F8;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+
+    margin-top: auto;
+
+}
+
+.footer_flex_container {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: lightblue;
+    font-weight: bold;
+    width: 100%;
+    margin-top: auto;
+
+}
+
+.footer-box {
+    flex-basis: 30%;
+}
+
+#opening {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#quotation {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+}
+
+#address {
+    font-weight: bold;
+    display: inline-block;
+    width: 32%;
+    text-align: right;
+    padding-right 20px;
+}
+
+
+
+/* müssen wir nochmals anschauen  habe die Farben mal entfernt.*/
+
+body {
+    background-color: white;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: white;
+
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: white;
+
+    }
 }
