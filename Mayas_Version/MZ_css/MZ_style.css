@@ -106,14 +106,14 @@ p {
     width: 250px;
     padding: 25px;
     margin: 10px;
-    color: brown;
-
 }
 
 .box {
     position: relative;
     text-align: center;
-    color: white;
+    color: lightsteelblue;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 250%
 }
 
 /*.container {
