@@ -25,15 +25,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="git commit">
-      <change afterPath="$PROJECT_DIR$/Mayas_Version/MZ_css/MZ_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mayas_Version/MZ_html/MZ_feedback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mayas_Version/MZ_html/MZ_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mayas_Version/MZ_html/MZ_pizza.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mayas_Version/MZ_html/MZ_salad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mayas_Version/MZ_html/MZ_softdrinks.html" afterDir="false" />
+    <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mayas_Version/MZ_css/MZ_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Mayas_Version/MZ_css/MZ_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mayas_Version/MZ_html/MZ_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mayas_Version/MZ_html/MZ_index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +117,7 @@
       <workItem from="1601912861576" duration="677000" />
       <workItem from="1601913573245" duration="1862000" />
       <workItem from="1601927333167" duration="651000" />
-      <workItem from="1602005610907" duration="2604000" />
+      <workItem from="1602005610907" duration="4024000" />
     </task>
     <task id="LOCAL-00001" summary="git commit">
       <created>1601913477494</created>
@@ -138,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601913612940</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git commit">
+      <created>1602008346283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602008346283</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,10 +163,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="git commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602007585294">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602008345270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602007585294" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602008345270" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1601927499325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -181,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601912905083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601914504688">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602008349879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601914504688" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602008349879" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601927534255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
