@@ -35,23 +35,46 @@
 <main class="main">
     <div class="content_top">
         <h1 class="maintitle">Welcome to Tony's Pizza Factory</h1> 
-        <div class="restaurant_front"><img src="../img/restaurant.png" alt="Restaurant" height="400" width="600"></div>
+        <div class="restaurant_front">
+
+
+            <img
+             src="../img/restaurant.png"
+                alt="Restaurant"
+                srcset="../img/restaurant.png 2000w,
+                        ../img/restaurant.png 900w"
+                sizes="(min-width: 60em) 80vw,
+            100vw">
+
+        </div>
+
+<!--
+         <picture>
+             <source media="(min-width:650px)" height="200" width="100">
+             <source media="(min-width:465px)" srcset="../img/restaurant.png" height="100" width="10">
+             <img src="./img/restaurant.png" alt="Restaurant" height="400" width="500">
+         </picture> -->
+
+
+
+
+
     </div>
 
     <div>
     <div class="content_bottom">
     <div class="box-1">
-        <div class="content_bottom_link"> <a href="MZ_pizza.html"> <img src="../img/pizza_front.png" alt="Pizza" height="200" width="250"></a> </div>
+        <div class="content_bottom_link"> <a href="MZ_pizza.html"> <img src="../img/pizza_front.png" alt="Pizza" height="200" width="230"></a> </div>
         <div class="centered">PIZZA</div>
     </div>
 
      <div class="box-1">
-        <div class="content_bottom_link"> <a href="MZ_salad.html"> <img src="../img/salad_front.png" alt="Salad" height="200" width="250"></a> </div>
+        <div class="content_bottom_link"> <a href="MZ_salad.html"> <img src="../img/salad_front.png" alt="Salad" height="200" width="230"></a> </div>
          <div class="centered">SALAD</div>
      </div>
 
     <div class="box-1">
-        <div class="content_bottom_link"> <a href="MZ_softdrinks.html"><img src="../img/softdrinks_front.png" alt="Softdrinks" height="200" width="250"></a> </div>
+        <div class="content_bottom_link"> <a href="MZ_softdrinks.html"><img src="../img/softdrinks_front.png" alt="Softdrinks" height="200" width="230"></a> </div>
         <div class="centered">SOFTDRINKS</div>
     </div>
     </div>
