@@ -111,6 +111,7 @@ body {
 .restaurant_front{
     display: flex;
     justify-content: center;
+    margin: 3em
 }
 
 #container {  /* Das ist der Container für die Subsites */
