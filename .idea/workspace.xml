@@ -31,10 +31,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="webg-2019">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/feedback.html" afterDir="false" />
+    <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pizza.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/salad.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/salad.html" afterDir="false" />
@@ -118,6 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601912860073</updated>
       <workItem from="1601912861576" duration="677000" />
+      <workItem from="1602169139062" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="git commit">
       <created>1601913477494</created>
@@ -126,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601913477494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git commit">
+      <created>1602169274340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602169274340</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git commit">
+      <created>1602169357170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602169357170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,15 +158,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aline version" />
-    <MESSAGE value="git commit" />
     <MESSAGE value="webg-2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="webg-2019" />
+    <MESSAGE value="git commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602169029087">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602169356230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602169029087" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602169356230" />
     <state width="616" height="214" key="Git.Branch.Popup" timestamp="1601913184710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -171,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601912905083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602169068300">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602169368981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602169068300" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602169368981" />
     <state x="512" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602089802190">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
