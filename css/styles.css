@@ -93,7 +93,6 @@ p {
 .content_bottom_link {  /* - tbd - Das wird der Link auf den kleinen Front Bildern */
     margin: 5%;
 }
-
 #container {  /* Das ist der Container für die Subsites */
     display: flex;
     flex-direction: row;
@@ -107,6 +106,30 @@ p {
     padding: 25px;
     margin: 10px;
 }
+/* box-1 um schrift über bild def zu können*/
+.box-1{
+    width: 250px;
+    padding: 25px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    text-shadow:
+            1px  1px 1px blue,
+            1px -1px 1px violet,
+            -1px  1px 1px yellow,
+            -1px -1px 1px red;
+    font-family: sans; color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 250%
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .feature-icon {   /* Das ist das Shopping Cart Icon */
     justify-content: right;
