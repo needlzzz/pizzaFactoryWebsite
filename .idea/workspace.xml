@@ -31,16 +31,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/pizzafactory-favicon.png" afterDir="false" />
+    <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="aline finale anpassungen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/feedback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pizza.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/salad.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/salad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/softdrinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/softdrinks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pizza_favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601912860073</updated>
       <workItem from="1601912861576" duration="677000" />
+      <workItem from="1602235783773" duration="166000" />
     </task>
     <task id="LOCAL-00001" summary="git commit">
       <created>1601913477494</created>
@@ -127,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601913477494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aline finale anpassungen">
+      <created>1602232154302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602232154302</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git commit" />
     <MESSAGE value="aline version" />
-    <option name="LAST_COMMIT_MESSAGE" value="aline version" />
+    <MESSAGE value="aline finale anpassungen" />
+    <option name="LAST_COMMIT_MESSAGE" value="aline finale anpassungen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1601913476497">
@@ -171,9 +173,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601912905083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601913417838">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="338" y="158" key="Vcs.Push.Dialog.v2" timestamp="1602232158017">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="338" y="158" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1602232158017" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601913417838" />
     <state x="512" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602089802190">
       <screen x="0" y="23" width="1440" height="796" />
