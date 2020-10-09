@@ -49,7 +49,15 @@ p {
       float: none;
       width: 100%;
     }
-  }
+
+
+
+    
+}
+
+
+
+
 
 .header-brand-wrapper {
     margin-top: 3em;
@@ -67,6 +75,11 @@ p {
 }
 
 /* Hier kommt der Hauptbereich*/
+
+body {
+    width: 100%;
+}
+
 
 
 .maintitle {
@@ -88,17 +101,25 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .content_bottom_link {  /* - tbd - Das wird der Link auf den kleinen Front Bildern */
     margin: 5%;
 }
 
+.restaurant_front{
+    display: flex;
+    justify-content: center;
+    margin: 4em
+}
+
 #container {  /* Das ist der Container für die Subsites */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -106,7 +127,33 @@ p {
     width: 250px;
     padding: 25px;
     margin: 10px;
+    flex-basis: 25%;
+    
 }
+/* box-1 um schrift über bild def zu können*/
+.box-1{
+    width: 250px;
+    padding: 25px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    text-shadow:
+            1px  1px 1px blue,
+            1px -1px 1px violet,
+            -1px  1px 1px yellow,
+            -1px -1px 1px red;
+    font-family: sans; color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 250%
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .feature-icon {   /* Das ist das Shopping Cart Icon */
     justify-content: right;
@@ -197,7 +244,7 @@ input[type=submit]:hover{
 
 /* Hier kommt der Footer*/
 
-.footer {
+/* .footer {
     background-color: #9FC5F8;
     width: 100%;
     bottom: 0;
@@ -213,10 +260,48 @@ input[type=submit]:hover{
     background-color: lightblue;
     font-weight: bold;
     width: 100%;
-    margin-top: auto;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    
 }
 
+.footer_box{
+    
+} */
 
+footer {
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+    margin-top: auto;
+
+   
+
+}
+
+.footer_flex_container {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: #9FC5F8;
+    font-weight: bold;
+    margin-top: auto;
+    flex: 1;
+    
+}
+
+.footer-box {
+    flex-basis: 30%;
+    justify-content: space-around;
+    flex: 1;
+}
+
+#adress_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 32%;
+}
 
 #opening {
     font-weight: bold;
@@ -237,7 +322,7 @@ input[type=submit]:hover{
     display: inline-block;
     width: 32%;
     text-align: right;
-    margin-right: 5px;
+   
 }
 
 #adress_right {
@@ -253,10 +338,53 @@ body {
     background-color: white;
 }
 
+
+
+@media screen and (max-width: 600px) {
+  
+
+    #mainpicture{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    
+}
+
 @media screen and (min-width: 400px) {
     body {
         background-color: white;
 
+    }
+
+        
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    .footer_flex_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .footer-box {
+        width: 100%;
+        
+    }
+
+    #adress_right{
+        justify-content: center;
+    }
+
+    #opening {
+        justify-content: center;
+    }
+    #quotation{
+        justify-content: center;
     }
 }
 

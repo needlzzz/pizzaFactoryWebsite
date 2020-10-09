@@ -33,6 +33,12 @@
   <component name="ChangeListManager">
     <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/salad.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/salad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/softdrinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/softdrinks.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,21 +120,7 @@
       <option name="project" value="LOCAL" />
       <updated>1601913477494</updated>
     </task>
-    <task id="LOCAL-00002" summary="besprechung aus call">
-      <created>1602093834837</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1602093834837</updated>
-    </task>
-    <task id="LOCAL-00003" summary="besprechung call">
-      <created>1602094166593</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1602094166593</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,9 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git commit" />
     <MESSAGE value="aline version" />
-    <MESSAGE value="besprechung aus call" />
-    <MESSAGE value="besprechung call" />
-    <option name="LAST_COMMIT_MESSAGE" value="besprechung call" />
+    <option name="LAST_COMMIT_MESSAGE" value="aline version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1601913476497">
@@ -174,11 +164,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601912905083" />
-    <state x="338" y="163" key="Vcs.Push.Dialog.v2" timestamp="1602093845835">
-      <screen x="0" y="23" width="1440" height="796" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601913417838">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601913417838" />
-    <state x="338" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.796@0.23.1440.796" timestamp="1602093845835" />
     <state x="512" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602089802190">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
