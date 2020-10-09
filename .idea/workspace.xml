@@ -32,6 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72540149-d058-4f8b-8672-ae38c47ff98f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/pizzafactory-favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/feedback.html" afterDir="false" />
@@ -39,6 +40,7 @@
       <change beforePath="$PROJECT_DIR$/html/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pizza.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/salad.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/salad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/softdrinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/softdrinks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pizza_favicon.ico" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +104,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
