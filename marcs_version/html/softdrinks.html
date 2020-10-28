@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <meta name="description" content="Best Pizza in Town">
+    <title>Tony's Pizza Factory</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/pizzafactory-favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+<header>
+    <h1>Tony's Pizza Factory</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Welcome</a>
+        <a href="pizza.html">Pizza</a>
+        <a href="salad.html">Salad</a>
+        <a href="softdrinks.html">Soft Drinks</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+
+<main class="main">
+    <h1 class="maintitle">Soft drinks</h1>
+    <div id="container">
+
+        <div class="box">
+            <img class="itemimage" src="../img/coke.png" alt="image of coke" height="200" width="250">
+            <h2 class="subtitle">Coke</h2>
+            <select name="itemselect">
+            <option>50cl</option>
+            <option>100cl</option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
+
+        <div class="box">
+            <img class="itemimage" src="../img/fanta.png" alt="image of fanta" height="200" width="250">
+            <h2 class="subtitle">Fanta</h2>
+            <select name="itemselect">
+            <option>50cl</option>
+            <option>100cl</option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
+
+        <div class="box">
+            <img class="itemimage" src="../img/pepsi.png" alt="image of pepsi" height="200" width="250">
+            <h2 class="subtitle">Pepsi</h2>
+            <select name="itemselect">
+            <option>50cl</option>
+            <option>100cl</option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
+
+        <div class="box">
+            <img class="itemimage" src="../img/redbull.png" alt="image of redbull" height="200" width="250">
+            <h2 class="subtitle">Red bull</h2>
+            <select name="itemselect">
+            <option>50cl</option>
+            <option>100cl</option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price"> 2$</span>
+        </div>
+    </div>
+</main>
+
+
+<footer>
+    <div class="footer_flex_container">
+        <div class="footer-box" id="opening">
+            <p class="footerp">Hours:<br>Mon-Thu:
+                <time datetime="11:00">11 am</time>
+                -
+                <time datetime="23:00">11pm</time>
+                <br>
+                Fr-Sat:
+                <time datetime="11:00">11 am</time>
+                -
+                <time datetime="00:00">12pm<br>Sunday closed</time>
+            </p>
+        </div>
+
+        <div class="footer-box" id="quotation">
+            <p class="footerp">"The Pizzeria is one place I have been wanting to visit for a long time. The reason being their
+                Rustica
+                pizza
+                which absolutely blew me away" - Jimmy</p>
+        </div>
+        <div class="footer-box" id="adress_right">
+            <p class="footerp">Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
