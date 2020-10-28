@@ -40,7 +40,7 @@ function checkInputs() {
     setErrorFor(text, "Please enter at least 50 characters");
   }
   else{
-      setSuccessFor(text)
+      setSuccessFor(text);
   }
 
 }
