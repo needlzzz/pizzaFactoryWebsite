@@ -235,11 +235,19 @@ input[type=submit]:hover{
   border: 2px solid black;
 }
 
-.col-75.success input, textarea {
+.col-75.success input {
   border-color: #7FFF00;
 }
 
-.col-75.error input, textarea {
+.col-75.success textarea  {
+  border-color: #7FFF00;
+}
+
+.col-75.error input {
+  border-color: red;
+}
+
+.col-75.error textarea {
   border-color: red;
 }
 
@@ -272,9 +280,7 @@ input[type=submit]:hover{
   
 }
 
-#button {
-  
-}
+
 
 
 .row:after {

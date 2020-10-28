@@ -7,7 +7,6 @@ const text = document.getElementById("text");
 //eventlistener - it listens to the submit event
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  
   checkInputs();
 });
 
@@ -16,6 +15,7 @@ function checkInputs() {
   const nameValue = name.value.trim();
   const emailValue = email.value.trim();
   const textValue = text.value.trim();
+  
   
   if (nameValue === "") {
     //showerror
@@ -29,23 +29,25 @@ function checkInputs() {
   if (emailValue === "") {
     setErrorFor(email, "Please fill out your e-mail");
   }
-  else if (!isEmail(emailValue)) {
+    else if (!isEmail(emailValue)) {
     setErrorFor(email, "E-mail is not valid");
   }
-  else {
+    else {
     //add success class
     setSuccessFor(email);
-  }
-  if (textValue <= 50) {
+  } 
+  if (textValue.length <= 50) {
     setErrorFor(text, "Please enter at least 50 characters");
   }
-  else{
+    else{
       setSuccessFor(text);
+      alert("Thanks! Your feedback has been successfully submitted.")
   }
 
 }
 function setErrorFor(input, message) {
   const formControl = input.parentElement;
+  
   const small = formControl.querySelector("small");
   
   
