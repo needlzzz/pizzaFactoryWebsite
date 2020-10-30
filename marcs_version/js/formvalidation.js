@@ -3,12 +3,18 @@ const form = document.getElementById("form");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
 const text = document.getElementById("text");
+const button = document.getElementById("button");
 
 //eventlistener - it listens to the submit event
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   checkInputs();
 });
+
+
+
+
+//custom functions
 
 function checkInputs() {
   //get Values from the inputs
@@ -17,15 +23,22 @@ function checkInputs() {
   const textValue = text.value.trim();
   
   
+  
   if (nameValue === "") {
     //showerror
     //add error class
     setErrorFor(name, "Please fill out your name");
+    
+    
   }
+  else if (!onlyLettersInName(nameValue)) {
+    setErrorFor(name, "Only letters are allowed");
+  }
+  
    else {
     //add success class
     setSuccessFor(name);
-  }
+  } 
   if (emailValue === "") {
     setErrorFor(email, "Please fill out your e-mail");
   }
@@ -45,6 +58,7 @@ function checkInputs() {
   }
 
 }
+
 function setErrorFor(input, message) {
   const formControl = input.parentElement;
   
@@ -57,6 +71,8 @@ function setErrorFor(input, message) {
   formControl.className ="col-75 error";
 }
 
+
+
 function setSuccessFor(input) {
   const formControl = input.parentElement;
   formControl.className ="col-75 success";
@@ -65,3 +81,9 @@ function setSuccessFor(input) {
 function isEmail(email) {
   return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
+
+function onlyLettersInName(name) {
+  return /^[a-zA-ZäöüÄÖÜ ._-]+$/i.test(name);
+}
+
+
