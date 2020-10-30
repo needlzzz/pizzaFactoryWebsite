@@ -51,7 +51,7 @@ let todoListJSON = {
 "Title": "Fifth item"
 }
 ]
-}
+};
 
 function printFirst5Todos() {
 for (let i = 0; i < todoListJSON.todoList.length; i++) {
@@ -59,4 +59,4 @@ console.log(todoListJSON.todoList[i].Title);
 }
 }
 
-printFirst5Todos()
+printFirst5Todos();
