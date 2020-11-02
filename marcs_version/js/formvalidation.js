@@ -1,5 +1,5 @@
 // Defines that JavaScript code should be executed in "strict mode".
-"use strict"
+"use strict";
 
 //all the form fields saved as variables
 const form = document.getElementById("form");
@@ -89,5 +89,3 @@ function isEmail(email) {
 function onlyLettersInName(name) {
   return /^[a-zA-ZäöüÄÖÜëÉéèÁáà'‘ÅåÇçÊêĒēÑñÌìÍíÎîÏïÒòÓóÔôÕõØøŌōŒœÆæÚŚśŜŝŠšÙùúÛûČčŽžŸÿĎďĽľ¢ ._-]+$/i.test(name);
 }
-
-
