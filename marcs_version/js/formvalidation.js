@@ -1,3 +1,6 @@
+// Defines that JavaScript code should be executed in "strict mode".
+"use strict"
+
 //all the form fields saved as variables
 const form = document.getElementById("form");
 const name = document.getElementById("name");
@@ -52,10 +55,11 @@ function checkInputs() {
   if (textValue.length <= 50) {
     setErrorFor(text, "Please enter at least 50 characters");
   }
-    else{
+else{
       setSuccessFor(text);
       alert("Thanks! Your feedback has been successfully submitted.");
   }
+
 
 }
 
@@ -83,7 +87,7 @@ function isEmail(email) {
 }
 
 function onlyLettersInName(name) {
-  return /^[a-zA-ZäöüÄÖÜ ._-]+$/i.test(name);
+  return /^[a-zA-ZäöüÄÖÜëÉéèÁáà'‘ÅåÇçÊêĒēÑñÌìÍíÎîÏïÒòÓóÔôÕõØøŌōŒœÆæÚŚśŜŝŠšÙùÚúúÛûČčŽžåŸÿĎďĽľŽž¢ ._-]+$/i.test(name);
 }
 
 
