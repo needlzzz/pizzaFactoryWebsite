@@ -49,8 +49,8 @@ function checkInputs() {
     //add success class
     setSuccessFor(email);
   } 
-  if (textValue.length <= 20) {
-    setErrorFor(text, "Please enter at least 20 characters");
+  if (textValue.length <= 50) {
+    setErrorFor(text, "Please enter at least 50 characters");
   }
 else{
       setSuccessFor(text);
