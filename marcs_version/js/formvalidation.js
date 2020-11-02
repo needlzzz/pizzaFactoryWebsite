@@ -1,6 +1,3 @@
-// Defines that JavaScript code should be executed in "strict mode".
-"use strict";
-
 //all the form fields saved as variables
 const form = document.getElementById("form");
 const name = document.getElementById("name");
@@ -52,8 +49,8 @@ function checkInputs() {
     //add success class
     setSuccessFor(email);
   } 
-  if (textValue.length <= 50) {
-    setErrorFor(text, "Please enter at least 50 characters");
+  if (textValue.length <= 20) {
+    setErrorFor(text, "Please enter at least 20 characters");
   }
 else{
       setSuccessFor(text);
