@@ -47,7 +47,7 @@
 <main>
     <h1 class="maintitle">Tell us what you think</h1>
     <div class="container">
-    <form action="..." method="post">
+    <form id="form" action="..." method="post">
 
         <div>
             <div class="row">
@@ -78,7 +78,10 @@
             <label for="name">Your name?</label>
                 </div>
                 <div class="col-75">
-            <input type="text" id="name" name="name"/>
+                  <input type="text" id="name" name="name"/>
+                  <i class="fa fa-check-circle" aria-hidden="true"></i>
+                  <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                  <small>Error Message</small>
                 </div>
         </div>
         <div class="row">
@@ -86,7 +89,10 @@
             <label for="email">Your e-mail address?</label>
             </div>
             <div class="col-75">
-            <input type="email" id="email" name="email">
+              <input type="email" id="email" name="email">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error Message</small>
             </div>
         </div>
         <div class="row">
@@ -94,9 +100,12 @@
             <label for="text">What can we do better?</label>
             </div>
             <div class="col-75">
-            <textarea id="text" name="text" cols="35" rows="10"></textarea>
+              <textarea id="text" name="text" cols="35" rows="10"></textarea>
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error Message</small>
             </div>
-            <input type="submit" value="Send"/>
+            <input type="submit" value="Send" id="button"/>
         </div>
     </form>
     </div>
@@ -132,7 +141,7 @@
     </div>
 </footer>
 
-
+<script defer src="../js/formvalidation.js"></script>
 
 </body>
 </html>

@@ -223,11 +223,65 @@ input[type=submit]:hover{
     margin-top: 6px;
 }
 
+/*form controls*/
+
 .col-75 {
     float: left;
     width: 75%;
-    margin-top: 6px;
+    margin-top: 25px;
 }
+
+.col-75 input, textarea{
+  border: 2px solid black;
+}
+
+.col-75.success input {
+  border-color: #7FFF00;
+}
+
+.col-75.success textarea  {
+  border-color: #7FFF00;
+}
+
+.col-75.error input {
+  border-color: red;
+}
+
+.col-75.error textarea {
+  border-color: red;
+}
+
+.col-75 i {
+  position: absolute;
+  visibility: hidden; 
+  
+}
+
+.col-75.success i.fa-check-circle {
+  visibility: visible;
+  color: #7FFF00  
+}
+
+.col-75.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: red;
+}
+
+.col-75.error small {
+  visibility: visible;
+  position: relative;
+  left: 20px;
+  color: red;
+  
+}                            
+
+.col-75 small {
+  visibility: hidden;
+  
+}
+
+
+
 
 .row:after {
     content: "";

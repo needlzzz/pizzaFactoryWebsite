@@ -54,8 +54,6 @@ function checkInputs() {
   }
   else {
     setSuccessFor(text);
-    alert("Thanks! Your feedback has been successfully submitted.");
-
   }
 
 
