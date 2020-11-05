@@ -1,1 +1,0 @@
-In diesem Verzeichnis werden die benötigten CSS-Dateien der Semesterarbeit abgelegt.

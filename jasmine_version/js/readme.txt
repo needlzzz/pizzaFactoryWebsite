@@ -1,1 +1,0 @@
-In diesem Verzeichnis werden die benötigten JavaScript-Dateien der Semesterarbeit abgelegt.

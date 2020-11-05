@@ -5,11 +5,16 @@ const email = document.getElementById("email");
 const text = document.getElementById("text");
 const button = document.getElementById("button");
 
+
 //eventlistener - it listens to the submit event
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   checkInputs();
 });
+
+form.addEventListener("change", checkInputs);
+  
+
 
 
 
@@ -21,12 +26,14 @@ function checkInputs() {
   const nameValue = name.value.trim();
   const emailValue = email.value.trim();
   const textValue = text.value.trim();
+  
 
 
 
   if (nameValue === "") {
     //showerror
     //add error class
+    button.disabled = true;
     setErrorFor(name, "Please fill out your name");
 
 
