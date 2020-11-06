@@ -3,23 +3,57 @@ const form = document.getElementById("form");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
 const text = document.getElementById("text");
-const button = document.getElementById("button");
+const btn = document.getElementById("sendButton");
 
 
-//eventlistener - it listens to the submit event
+//eventlistener 
+
+//code for buttonActivationCheck - but it's currently not working
+/* form.addEventListener("change", buttonActivationCheck());
+
+function buttonActivationCheck() {
+  const nameValueForButton = name.value.trim();
+  const textValueForButton = text.value.trim();
+  const emailValueForButton = email.value.trim();
+  const formFields = document.getElementById("form").elements;
+  
+  
+  if(nameValueForButton != "" && textValueForButton !="" && emailValueForButton !="") {
+    btn.disabled = true;
+  }
+  
+  else {
+    btn.disabled = false;
+  }
+
+} */
+
+
+
+
+
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   checkInputs();
 });
 
-form.addEventListener("change", checkInputs);
+
   
 
 
 
 
 
-//custom functions
+
+
+
+
+
+
+  
+
+
 
 function checkInputs() {
   //get Values from the inputs
@@ -33,7 +67,7 @@ function checkInputs() {
   if (nameValue === "") {
     //showerror
     //add error class
-    button.disabled = true;
+    
     setErrorFor(name, "Please fill out your name");
 
 
@@ -61,7 +95,7 @@ function checkInputs() {
   }
   else {
     setSuccessFor(text);
-    alert("Thanks! Your feedback has been successfully submitted.");
+    
 
   }
 
@@ -94,4 +128,3 @@ function isEmail(email) {
 function onlyLettersInName(name) {
   return /^[a-zA-ZäöüÄÖÜëÉéèÁáà'‘ÅåÇçÊêĒēÑñÌìÍíÎîÏïÒòÓóÔôÕõØøŌōŒœÆæÚŚśŜŝŠšÙùúÛûČčŽžŸÿĎďĽľ¢ ._-]+$/i.test(name);
 }
-

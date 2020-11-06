@@ -280,7 +280,20 @@ input[type=submit]:hover{
   
 }
 
+/*Send Button*/
 
+#button_wrapper {
+    display: flex;
+    width: 100%;
+    align-content: flex-end;
+    justify-content: flex-end;
+    
+}
+
+#button {
+    justify-content: flex-end;
+    
+}
 
 
 .row:after {
