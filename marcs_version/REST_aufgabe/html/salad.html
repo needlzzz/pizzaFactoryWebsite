@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <meta name="description" content="Best Pizza in Town">
+    <title>Tony's Pizza Factory</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/pizzafactory-favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+<header>
+    <h1>Tony's Pizza Factory</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Welcome</a>
+        <a href="pizza.html">Pizza</a>
+        <a href="salad.html">Salad</a>
+        <a href="softdrinks.html">Soft Drinks</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+
+
+
+<main class="main">
+    <h1 class="maintitle">Salad</h1>
+    <div id="containerSalad">
+        
+    
+        
+        
+        
+        <div class="box">
+            <img class="itemimage" src="../img/greensalad.png" alt="Green salad with tomatoe" height="200" width="250">
+            <h2 class="subtitle">Green salad with tomatoe</h2>
+            <p class="ingredients">Iceberg lettuce, tomatoes</p>
+            <select name="itemselect">
+            <option> Italian Dressing </option>
+            <option> French Dressing </option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price">4$</span>
+        </div>
+    
+        <div class="box">
+            <img class="itemimage" src="../img/tomatomozz.png" alt="Tomato salad with mozzarella" height="200" width="250">
+            <h2 class="subtitle">Tomato with mozzarella</h2>
+            <p class="ingredients">Tomatoes, mozzarella</p>
+            <select name="itemselect">
+            <option> Italian Dressing </option>
+            <option> French Dressing </option>
+            </select>            
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price">5$</span>
+        </div>
+
+        <div class="box">
+            <img class="itemimage" src="../img/fieldsalad.png" alt="Field salad with egg" height="200" width="250">
+            <h2 class="subtitle">Field salad with egg</h2>
+            <p class="ingredients">Field salad, egg</p>
+            <select name="itemselect">
+            <option> Italian Dressing </option>
+            <option> French Dressing </option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price">4$</span>
+        </div>
+
+        <div class="box">
+            <img class="itemimage" src="../img/rocket.png" alt="Rocket with Parmesan" height="200" width="250">
+            <h2 class="subtitle">Rocket with Parmesan</h2>
+            <p class="ingredients">Rocket, parmesan</p>
+            <select name="itemselect">
+            <option> Italian Dressing </option>
+            <option> French Dressing </option>
+            </select>
+            <div class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+            <span class="price">5$</span>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+<footer>
+    <div class="footer_flex_container">
+        <div class="footer-box" id="opening">
+            <p class="footerp">Hours:<br>Mon-Thu:
+                <time datetime="11:00">11 am</time>
+                -
+                <time datetime="23:00">11pm</time>
+                <br>
+                Fr-Sat:
+                <time datetime="11:00">11 am</time>
+                -
+                <time datetime="00:00">12pm<br>Sunday closed</time>
+            </p>
+        </div>
+
+        <div class="footer-box" id="quotation">
+            <p class="footerp">"The Pizzeria is one place I have been wanting to visit for a long time. The reason being their
+                Rustica
+                pizza
+                which absolutely blew me away" - Jimmy</p>
+        </div>
+        <div class="footer-box" id="adress_right">
+            <p class="footerp">Address:<br>Tony's Pizza Factory<br>2122 N Clark St<br>Chicago, IL 60614, USA</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    //dynamic content change
+
+    const xhrSalad = new XMLHttpRequest();
+    xhrSalad.open("GET", "https://tonyspizzafactory.herokuapp.com/api/salads", true);
+    xhrSalad.setRequestHeader("Authorization", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.MQ.bYceSpllpyYQixgNzDt7dpCkEojdv3NKD-85XLXfdI4");
+
+    xhrSalad.onreadystatechange = function() {
+        let boxSalad = "";
+        if (xhrSalad.readyState === 4) {
+            if (xhrSalad.status === 200) {
+                let jsonSalad = JSON.parse(xhrSalad.responseText);
+                
+
+                for (i = 0; i < jsonSalad.length; i++) {
+                    boxSalad += '<div class="box" id="box'+jsonSalad[i]['id']+'" >';
+                    boxSalad += '<img class="itemimage" src='+jsonSalad[i]['imageUrl']+'" alt="Green salad with tomatoe" height="200" width="250">';
+                    boxSalad += '<h2 class="subtitle">'+jsonSalad[i]['name']+'</h2>';
+                    boxSalad += '<p class="ingredients">'+jsonSalad[i]['ingredients']+'</p>';
+                    boxSalad += '<select name="itemselect">';
+                    boxSalad += '<option> Italian Dressing </option>';
+                    boxSalad += '<option> French Dressing </option>';
+                    boxSalad += '</select>'
+                    boxSalad += '<button onclick="orderBtn()"  class="feature-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>';
+                    boxSalad += '<span class="price">'+jsonSalad[i]['prize']+'</span>'
+                    boxSalad += '</div>';
+                }
+            }
+            if (xhrSalad.status === 404) {
+            console.log("Ressource not found");
+        }
+
+        document.getElementById('containerSalad').innerHTML = boxSalad;
+        
+        }
+    }
+    xhrSalad.send();
+
+    function orderBtn() {
+alert("Button has been clicked!");
+}
+    
+
+
+
+
+       
+
+
+
+
+    </script>
+
+</body>
+</html>
